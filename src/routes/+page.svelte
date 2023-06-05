@@ -1,5 +1,6 @@
 <script>
 	import Hero from "./hero.svelte"
+	import SnapSection from "./snapSection.svelte"
 </script>
 
 <svelte:head>
@@ -9,28 +10,28 @@
 
 <div class="cont">
 	<Hero />
-	<section class="one">
+	<SnapSection>
 		<h1 class="h1 text-9xl">MUTT</h1>
-	</section>
+	</SnapSection>
 
-	<section class="three">
+	<SnapSection>
 		<h1>three</h1>
-	</section>
-	<section class="four">
+	</SnapSection>
+	<SnapSection>
 		<h1>four</h1>
-	</section>
-	<section class="five">
+	</SnapSection>
+	<SnapSection>
 		<h1>five</h1>
-	</section>
-	<section class="six">
+	</SnapSection>
+	<SnapSection>
 		<h1>six</h1>
-	</section>
-	<section class="seven">
+	</SnapSection>
+	<SnapSection>
 		<h1>seven</h1>
-	</section>
-	<section class="eight">
+	</SnapSection>
+	<SnapSection>
 		<h1>eight</h1>
-	</section>
+	</SnapSection>
 </div>
 
 <style>
@@ -40,13 +41,7 @@
 		overflow-x: hidden;
 		height: 100vh;
 	}
-	section {
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		scroll-snap-align: start;
-	}
+
 	h1 {
 		color: black;
 	}
