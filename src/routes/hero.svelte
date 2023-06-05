@@ -14,12 +14,12 @@
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
 				<div
-					class="text-left text-9xl w-full h-full flex flex-col justify-end font-bold"
+					class="text-left text-9xl w-full h-full flex flex-col justify-end font-bold motto"
 				>
 					<div>
-						a production <br />
-						& ad agency <br />
-						mongrel
+						<p class="p-8">a production</p>
+						<p class="p-8">& ad agency</p>
+						<p class="p-8 pb-0">mongrel</p>
 					</div>
 				</div>
 			</div>
@@ -42,6 +42,9 @@
 </section>
 
 <style>
+	.motto {
+		letter-spacing: 0.1em;
+	}
 	section {
 		height: 100vh;
 		display: flex;
