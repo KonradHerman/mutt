@@ -13,10 +13,8 @@
 			<div
 				class="row-span-6 grid grid-cols-6 place-items-center w-full mt-20 relative gap-0"
 			>
-				<Sidebar
-					<div
-					class=" w-full h-full border-l-4 border-b-4 border-black"
-				/>
+				<Sidebar />
+				<div class=" w-full h-full border-l-4 border-b-4 border-black" />
 				<div
 					class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 				>
