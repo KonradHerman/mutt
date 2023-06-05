@@ -2,18 +2,20 @@
 	import Sidebar from "./sidebar.svelte"
 </script>
 
-<section class="two flex flex-col relative">
+<section class="two flex flex-col relative text-white bg-black">
 	<div class="grid grid-rows-10 h-full w-full gap-0">
 		<div class="row-span-1" />
 		<div
 			class="row-span-6 grid grid-cols-6 place-items-center w-full mt-20 relative gap-0"
 		>
 			<Sidebar />
-			<div class=" w-full h-full border-l-4 border-b-4 border-black" />
+			<div class=" w-full h-full border-l-4 border-b-4 border-white" />
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
-				<div class="text-left text-9xl w-full h-full flex flex-col justify-end">
+				<div
+					class="text-left text-9xl w-full h-full flex flex-col justify-end font-bold"
+				>
 					<div>
 						a production <br />
 						& ad agency <br />
@@ -21,7 +23,7 @@
 					</div>
 				</div>
 			</div>
-			<div class=" w-full h-full border-b-4 border-black" />
+			<div class=" w-full h-full border-b-4 border-white" />
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
@@ -29,7 +31,7 @@
 		<div class="row-span-3 grid grid-cols-6 place-items-center w-full mb-20">
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
-			<div class="  w-full h-full border-r-4 border-black relative">
+			<div class="  w-full h-full border-r-4 border-white relative">
 				<div class="arrow" />
 			</div>
 			<div class="  w-full h-full" />
@@ -54,8 +56,8 @@
 	.arrow {
 		width: 50px;
 		height: 50px;
-		border-left: 4px solid black;
-		border-bottom: 4px solid black;
+		border-left: 4px solid white;
+		border-bottom: 4px solid white;
 		transform: rotate(315deg);
 		right: -2px;
 		bottom: 5px;
