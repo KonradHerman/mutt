@@ -6,23 +6,19 @@
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
 		<div class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0">
 			<div />
-			<div class="row-span-5 title w-full h-full ml-80">MUTT</div>
+			<div class="title">MUTT</div>
 		</div>
-		<div
-			class="row-span-6 grid grid-cols-6 place-items-center w-full relative gap-0 h-full"
-		>
+		<div class="center">
 			<Sidebar />
 			<div class=" w-full h-full border-l-4 border-b-4 border-white" />
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
-				<div
-					class="text-left text-8xl w-full h-full flex flex-col justify-end font-bold motto"
-				>
+				<div class="motto">
 					<div>
-						<p class="p-8">a production</p>
-						<p class="p-8">& ad agency</p>
-						<p class="p-8 pb-0">mongrel</p>
+						<p class="p-8 pl-0">a production</p>
+						<p class="p-8 pl-0">& ad agency</p>
+						<p class="p-8 pl-0 pb-0">mongrel</p>
 					</div>
 				</div>
 			</div>
@@ -44,9 +40,13 @@
 	</div>
 </section>
 
-<style>
+<style lang="postcss">
+	.center {
+		@apply row-span-6 grid grid-cols-6 place-items-center w-full relative gap-0 h-full;
+	}
 	.motto {
 		letter-spacing: 0.1em;
+		@apply text-left text-8xl w-full h-full flex flex-col justify-end font-bold;
 	}
 	section {
 		height: 100vh;
@@ -73,5 +73,6 @@
 	.title {
 		font-size: 11rem;
 		letter-spacing: 0.1em;
+		@apply row-span-5  w-full h-full ml-80;
 	}
 </style>
