@@ -13,10 +13,12 @@
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
-				<div class="text-left text-9xl">
-					a production <br />
-					& ad agency <br />
-					mongrel
+				<div class="text-left text-9xl w-full h-full flex flex-col justify-end">
+					<div>
+						a production <br />
+						& ad agency <br />
+						mongrel
+					</div>
 				</div>
 			</div>
 			<div class=" w-full h-full border-b-4 border-black" />
