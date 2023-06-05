@@ -25,7 +25,7 @@
 		height: 2px;
 		left: 50%;
 		position: absolute;
-		background: black;
+		background: white;
 		transition: width 0.3s ease 0s, left 0.3s ease 0s;
 		width: 0;
 	}
