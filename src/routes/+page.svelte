@@ -9,7 +9,10 @@
 </svelte:head>
 
 <div class="cont">
-	<Hero />
+	<SnapSection>
+		<Hero />
+	</SnapSection>
+
 	<SnapSection>
 		<h1 class="h1 text-9xl">MUTT</h1>
 	</SnapSection>

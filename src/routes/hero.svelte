@@ -2,7 +2,7 @@
 	import Sidebar from "./sidebar.svelte"
 </script>
 
-<section class="two flex flex-col relative text-white bg-black">
+<div class="two flex flex-col relative text-white bg-black w-full h-full">
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
 		<div class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0">
 			<div />
@@ -38,7 +38,7 @@
 			<div class="  w-full h-full" />
 		</div>
 	</div>
-</section>
+</div>
 
 <style lang="postcss">
 	.center {
@@ -47,13 +47,6 @@
 	.motto {
 		letter-spacing: 0.1em;
 		@apply text-left text-8xl w-full h-full flex flex-col justify-end font-bold;
-	}
-	section {
-		height: 100vh;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		scroll-snap-align: start;
 	}
 	.overlay {
 		width: 80%;
