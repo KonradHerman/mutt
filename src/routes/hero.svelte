@@ -4,7 +4,7 @@
 
 <section class="two flex flex-col relative">
 	<div class="grid grid-rows-10 h-full w-full gap-0">
-		<div class="row-span-6" />
+		<div class="row-span-1" />
 		<div
 			class="row-span-6 grid grid-cols-6 place-items-center w-full mt-20 relative gap-0"
 		>
