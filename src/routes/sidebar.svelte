@@ -1,5 +1,5 @@
 <div
-	class=" w-full h-full text-right pr-10 pt-20 bg-red-400 flex flex-col gap-10 items-end text-lg"
+	class=" w-full h-full text-right pr-10 pt-20 flex flex-col gap-10 items-end text-lg"
 >
 	<a href="">Work</a>
 

@@ -9,7 +9,8 @@
 
 <div class="cont">
 	<section class="two flex flex-col relative">
-		<div class="grid grid-rows-8 h-full w-full gap-0">
+		<div class="grid grid-rows-10 h-full w-full gap-0">
+			<div class="row-span-6" />
 			<div
 				class="row-span-6 grid grid-cols-6 place-items-center w-full mt-20 relative gap-0"
 			>
@@ -29,7 +30,7 @@
 				<div class=" w-full h-full" />
 				<div class=" w-full h-full" />
 			</div>
-			<div class="row-span-2 grid grid-cols-6 place-items-center w-full mb-20">
+			<div class="row-span-3 grid grid-cols-6 place-items-center w-full mb-20">
 				<div class=" w-full h-full" />
 				<div class=" w-full h-full" />
 				<div class="  w-full h-full border-r-4 border-black relative">
