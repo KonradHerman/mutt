@@ -1,4 +1,5 @@
 <script>
+	import Sidebar from "./sidebar.svelte"
 </script>
 
 <svelte:head>
@@ -12,17 +13,10 @@
 			<div
 				class="row-span-6 grid grid-cols-6 place-items-center w-full mt-20 relative gap-0"
 			>
-				<div
-					class=" w-full h-full text-right pr-10 pt-20 bg-red-400 flex flex-col gap-10 items-end text-lg"
-				>
-					<a href="">Work</a>
-
-					<a href="">People</a>
-					<a href="">Howl</a>
-					<a href="">Awards</a>
-					<a href="">Woof</a>
-				</div>
-				<div class=" w-full h-full border-l-4 border-b-4 border-black" />
+				<Sidebar
+					<div
+					class=" w-full h-full border-l-4 border-b-4 border-black"
+				/>
 				<div
 					class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 				>
