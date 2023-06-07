@@ -1,6 +1,7 @@
 <script>
 	import Sidebar from "../../sidebar.svelte"
 	import { content } from "./content.js"
+	import { fade } from "svelte/transition"
 	let activeContent = false
 	const activate = key => () => {
 		activeContent = content[key]
@@ -19,6 +20,7 @@
 				{#if activeContent}
 					<div>
 						<iframe
+							transition:fade={{ duration: 1500 }}
 							src={activeContent.video}
 							frameborder="0"
 							allow="autoplay; picture-in-picture"
@@ -27,7 +29,10 @@
 						/>
 					</div>
 					<div>
-						<p class="text-justify p-4 pb-0 mb-0 text-sm max-h-44">
+						<p
+							class="text-justify p-4 pb-0 mb-0 text-sm max-h-44"
+							transition:fade={{ duration: 3000 }}
+						>
 							{activeContent.text}
 						</p>
 					</div>
