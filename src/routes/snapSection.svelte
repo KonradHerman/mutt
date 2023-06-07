@@ -1,4 +1,8 @@
-<section>
+<script>
+	export let id
+</script>
+
+<section {id}>
 	<slot>Loading</slot>
 </section>
 
