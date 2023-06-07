@@ -1,6 +1,7 @@
 <script>
 	import Hero from "./_subpages/hero.svelte"
 	import Work from "./_subpages/_work/work.svelte"
+	import Howl from "./_subpages/howl.svelte"
 	import SnapSection from "./snapSection.svelte"
 </script>
 
@@ -11,18 +12,24 @@
 
 <div class="cont">
 	<SnapSection>
-		<video autoplay muted loop id="myVideo" class="absolute z-100">
+		<video
+			autoplay
+			muted
+			loop
+			id="myVideo"
+			class="absolute z-100"
+		>
 			<source src="video.mp4" type="video/mp4" />
 		</video>
 		<Hero />
 	</SnapSection>
 
-	<SnapSection>
+	<SnapSection id="work">
 		<Work />
 	</SnapSection>
 
-	<SnapSection>
-		<h1>three</h1>
+	<SnapSection id="howl">
+		<Howl />
 	</SnapSection>
 	<SnapSection>
 		<h1>four</h1>
