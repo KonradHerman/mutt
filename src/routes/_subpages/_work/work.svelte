@@ -46,7 +46,7 @@
 				<div class="motto">
 					<div class="grid grid-cols-1 place-items-left h-full pb-6">
 						<a class="content-link" on:click={activate("tide")}>TIDE AD</a>
-						<a class="content-link" on:click={activate("got2be")}>GOT2BE</a>
+						<a class="content-link" on:click={activate("got2be")}>Göt2b</a>
 						<a class="content-link">OLAY</a>
 						<a class="content-link">NEOM</a>
 						<a class="content-link">VERIZON</a>
@@ -74,7 +74,7 @@
 
 <style lang="postcss">
 	.content-link {
-		@apply py-1 ml-5 pl-0 cursor-pointer;
+		@apply py-1 ml-5 pl-0 cursor-pointer uppercase;
 	}
 	.center {
 		@apply row-span-6 grid grid-cols-5 place-items-center w-full relative gap-0 h-full;
