@@ -1,5 +1,5 @@
 <script>
-	import Sidebar from "./sidebar.svelte"
+	import Sidebar from "../sidebar.svelte"
 </script>
 
 <div class="two flex flex-col relative text-white w-full h-full">

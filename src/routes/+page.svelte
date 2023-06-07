@@ -1,5 +1,6 @@
 <script>
-	import Hero from "./hero.svelte"
+	import Hero from "./_subpages/hero.svelte"
+	import Work from "./_subpages/_work/work.svelte"
 	import SnapSection from "./snapSection.svelte"
 </script>
 
@@ -17,7 +18,7 @@
 	</SnapSection>
 
 	<SnapSection>
-		<h1 class="h1 text-9xl">MUTT</h1>
+		<Work />
 	</SnapSection>
 
 	<SnapSection>
