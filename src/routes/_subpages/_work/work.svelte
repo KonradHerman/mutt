@@ -11,15 +11,21 @@
 	}
 </script>
 
-<div class="two flex flex-col relative text-black w-full h-full">
+<div
+	class="two flex flex-col relative text-black w-full h-full"
+>
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
-		<div class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0">
+		<div
+			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
+		>
 			<div />
 			<div class="title">MUTT</div>
 		</div>
 		<div class="center">
 			<Sidebar color="black" />
-			<div class=" w-full h-full content flex flex-col items-center">
+			<div
+				class=" w-full h-full content flex flex-col items-center"
+			>
 				{#if activeContent}
 					<div class="align-top w-full h-1/2">
 						<iframe
@@ -38,36 +44,69 @@
 							in:fade={{ duration: 2500 }}
 							out:fade={{ duration: 400 }}
 						>
-							{activeContent.text}
+							{@html activeContent.text}
 						</p>
 					</div>
 				{/if}
 			</div>
-			<div class=" w-full h-full border-b-4 border-l-4 border-black" />
+			<div
+				class=" w-full h-full border-b-4 border-l-4 border-black"
+			/>
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
 				<div class="motto">
-					<div class="grid grid-cols-1 place-items-left h-full pb-6">
-						<a class="content-link" on:click={activate("tide")}>TIDE AD</a>
-						<a class="content-link" on:click={activate("got2be")}>Göt2b</a>
-						<a class="content-link">OLAY</a>
-						<a class="content-link">NEOM</a>
-						<a class="content-link">VERIZON</a>
-						<a class="content-link">BELLAGIO</a>
-						<a class="content-link">NEOM BILLBOARD</a>
-						<a class="content-link">DONATE LIFE</a>
-						<a class="content-link">METAVERSE</a>
+					<div
+						class="grid grid-cols-1 place-items-left h-full pb-6"
+					>
+						<a
+							class="content-link"
+							on:click={activate("tide")}>TIDE AD</a
+						>
+						<a
+							class="content-link"
+							on:click={activate("got2be")}>Göt2b</a
+						>
+						<a
+							class="content-link"
+							on:click={activate("olay")}>OLAY</a
+						>
+						<a
+							class="content-link"
+							on:click={activate("neom")}>NEOM</a
+						>
+						<a
+							class="content-link"
+							on:click={activate("verizon")}>VERIZON</a
+						>
+						<a
+							class="content-link"
+							on:click={activate("bellagio")}>BELLAGIO</a
+						>
+						<!-- <a class="content-link">NEOM BILLBOARD</a> -->
+						<a
+							class="content-link"
+							on:click={activate("donateLife")}
+							>DONATE LIFE</a
+						>
+						<a
+							class="content-link"
+							on:click={activate("metaverse")}>METAVERSE</a
+						>
 					</div>
 				</div>
 			</div>
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
 		</div>
-		<div class="row-span-3 grid grid-cols-5 place-items-center w-full mb-20">
+		<div
+			class="row-span-3 grid grid-cols-5 place-items-center w-full mb-20"
+		>
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
-			<div class="  w-full h-full border-r-4 border-black relative">
+			<div
+				class="  w-full h-full border-r-4 border-black relative"
+			>
 				<div class="arrow" />
 			</div>
 			<div class="  w-full h-full" />
