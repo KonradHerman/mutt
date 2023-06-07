@@ -12,7 +12,10 @@ export const content = {
 			`,
 	},
 	got2be: {
-		video: "hi",
-		text: "hi",
+		video: "https://player.vimeo.com/video/393728356?h=23ec0ab010",
+		text: `
+                Göt2b is a hair wax brand. They needed to showcase the versatility of their product by featuring an array of hairstyles. 
+                So we created eye-catching and humorous sketches where heads in the bathroom, each with a different hairstyle, engaged in lively conversations to convince their indecisive owner to pick one for the day.
+            `,
 	},
 }

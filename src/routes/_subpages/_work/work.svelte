@@ -4,7 +4,10 @@
 	import { fade } from "svelte/transition"
 	let activeContent = false
 	const activate = key => () => {
-		activeContent = content[key]
+		activeContent = false
+		setTimeout(() => {
+			activeContent = content[key]
+		}, 10)
 	}
 </script>
 
@@ -18,20 +21,18 @@
 			<Sidebar color="black" />
 			<div class=" w-full h-full content flex flex-col items-center">
 				{#if activeContent}
-					<div>
-						<iframe
-							transition:fade={{ duration: 1500 }}
-							src={activeContent.video}
-							frameborder="0"
-							allow="autoplay; picture-in-picture"
-							allowfullscreen
-							class="w-full p-0 m-0 h-48 mt-4 px-4"
-						/>
-					</div>
+					<iframe
+						in:fade={{ duration: 2500 }}
+						src={activeContent.video}
+						frameborder="0"
+						allow="autoplay; picture-in-picture"
+						allowfullscreen
+						class="w-full p-0 m-0 h-48 mt-4 px-4"
+					/>
 					<div>
 						<p
 							class="text-justify p-4 pb-0 mb-0 text-sm max-h-44"
-							transition:fade={{ duration: 3000 }}
+							in:fade={{ duration: 2500 }}
 						>
 							{activeContent.text}
 						</p>
