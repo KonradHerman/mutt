@@ -38,16 +38,16 @@
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
 				<div class="motto">
-					<div class="grid grid-cols-1 place-items-left h-full">
-						<div class="content-link" on:click={activate("tide")}>TIDE AD</div>
-						<div class="content-link" on:click={activate("got2be")}>GOT2BE</div>
-						<div class="content-link">OLAY</div>
-						<div class="content-link">NEOM</div>
-						<div class="content-link">VERIZON</div>
-						<div class="content-link">BELLAGIO</div>
-						<div class="content-link">NEOM BILLBOARD</div>
-						<div class="content-link">DONATE LIFE</div>
-						<div class="content-link">METAVERSE</div>
+					<div class="grid grid-cols-1 place-items-left h-full pb-6">
+						<a class="content-link" on:click={activate("tide")}>TIDE AD</a>
+						<a class="content-link" on:click={activate("got2be")}>GOT2BE</a>
+						<a class="content-link">OLAY</a>
+						<a class="content-link">NEOM</a>
+						<a class="content-link">VERIZON</a>
+						<a class="content-link">BELLAGIO</a>
+						<a class="content-link">NEOM BILLBOARD</a>
+						<a class="content-link">DONATE LIFE</a>
+						<a class="content-link">METAVERSE</a>
 					</div>
 				</div>
 			</div>
@@ -68,7 +68,7 @@
 
 <style lang="postcss">
 	.content-link {
-		@apply p-8 py-1 ml-5 pl-0 cursor-pointer;
+		@apply py-1 ml-5 pl-0 cursor-pointer;
 	}
 	.center {
 		@apply row-span-6 grid grid-cols-5 place-items-center w-full relative gap-0 h-full;
@@ -96,5 +96,28 @@
 		font-size: 11rem;
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full ml-80;
+	}
+	a {
+		float: left;
+		text-decoration: none;
+		letter-spacing: 0.15em;
+		width: fit-content;
+		position: relative;
+	}
+	a:after {
+		background: none repeat scroll 0 0 transparent;
+		bottom: 0;
+		content: "";
+		display: block;
+		height: 2px;
+		left: 50%;
+		position: absolute;
+		background: black;
+		transition: width 0.3s ease 0s, left 0.3s ease 0s;
+		width: 0;
+	}
+	a:hover:after {
+		width: 100%;
+		left: 0;
 	}
 </style>
