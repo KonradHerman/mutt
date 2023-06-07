@@ -2,7 +2,7 @@
 	import Sidebar from "./sidebar.svelte"
 </script>
 
-<div class="two flex flex-col relative text-white bg-black w-full h-full">
+<div class="two flex flex-col relative text-white w-full h-full">
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
 		<div class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0">
 			<div />

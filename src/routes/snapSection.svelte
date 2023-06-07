@@ -4,6 +4,7 @@
 
 <style scoped>
 	section {
+		position: relative;
 		height: 100vh;
 		display: flex;
 		justify-content: center;

@@ -10,6 +10,9 @@
 
 <div class="cont">
 	<SnapSection>
+		<video autoplay muted loop id="myVideo" class="absolute z-100">
+			<source src="video.mp4" type="video/mp4" />
+		</video>
 		<Hero />
 	</SnapSection>
 
@@ -47,5 +50,10 @@
 
 	h1 {
 		color: black;
+	}
+	video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 	}
 </style>
