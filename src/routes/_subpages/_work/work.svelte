@@ -7,7 +7,7 @@
 		activeContent = false
 		setTimeout(() => {
 			activeContent = content[key]
-		}, 10)
+		}, 500)
 	}
 </script>
 
@@ -23,6 +23,7 @@
 				{#if activeContent}
 					<iframe
 						in:fade={{ duration: 2500 }}
+						out:fade={{ duration: 400 }}
 						src={activeContent.video}
 						frameborder="0"
 						allow="autoplay; picture-in-picture"
@@ -33,6 +34,7 @@
 						<p
 							class="text-justify p-4 pb-0 mb-0 text-sm max-h-44"
 							in:fade={{ duration: 2500 }}
+							out:fade={{ duration: 400 }}
 						>
 							{activeContent.text}
 						</p>
