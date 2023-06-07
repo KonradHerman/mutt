@@ -1,5 +1,5 @@
 <script>
-	export let color = "white"
+	export let color = "white" // can be black or white
 </script>
 
 <div
