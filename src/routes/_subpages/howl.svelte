@@ -56,10 +56,10 @@
 						We’re small, faster and more efficient.<br />
 						We’re project driven. And we hire accordingly.
 						<br />
-						We’re here to unleash the kind of work people
-						cannot ignore. <br /> We’re here for the joy of
-						doing what we love. <br /> We’re here for
-						shorter calls and longer relationships. We want
+						We’re here to unleash the kind of work people cannot
+						ignore. <br /> We’re here for the joy of doing
+						what we love. <br /> We’re here for shorter
+						calls and longer relationships. <br /> We want
 						everyone involved to be happy. <br /><br /> And occasionally
 						howling.
 					</div>
