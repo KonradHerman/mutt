@@ -1,14 +1,27 @@
 <script>
-	export let color = "white" // can be black or white
+	export let color = "white"
+	function scrollIntoView({ target }) {
+		const el = document.querySelector(
+			target.getAttribute("href")
+		)
+		if (!el) return
+		el.scrollIntoView({
+			behavior: "smooth",
+		})
+	}
 </script>
 
 <div
 	class=" w-full h-full text-right pr-10 pt-20 flex flex-col gap-10 items-end text-lg {color}"
 >
-	<a href="">Work</a>
+	<a href="#work" on:click|preventDefault={scrollIntoView}
+		>Work</a
+	>
 
+	<a href="#howl" on:click|preventDefault={scrollIntoView}
+		>Howl</a
+	>
 	<a href="">People</a>
-	<a href="">Howl</a>
 	<a href="">Awards</a>
 	<a href="">Woof</a>
 </div>
