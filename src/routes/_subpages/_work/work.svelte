@@ -21,18 +21,20 @@
 			<Sidebar color="black" />
 			<div class=" w-full h-full content flex flex-col items-center">
 				{#if activeContent}
-					<iframe
-						in:fade={{ duration: 2500 }}
-						out:fade={{ duration: 400 }}
-						src={activeContent.video}
-						frameborder="0"
-						allow="autoplay; picture-in-picture"
-						allowfullscreen
-						class="w-full p-0 m-0 h-48 mt-4 px-4"
-					/>
+					<div class="align-top w-full h-1/2">
+						<iframe
+							in:fade={{ duration: 2500 }}
+							out:fade={{ duration: 400 }}
+							src={activeContent.video}
+							frameborder="0"
+							allow="autoplay; picture-in-picture"
+							allowfullscreen
+							class="w-full p-0 m-0 h-full"
+						/>
+					</div>
 					<div>
 						<p
-							class="text-justify p-4 pb-0 mb-0 text-sm max-h-44"
+							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44"
 							in:fade={{ duration: 2500 }}
 							out:fade={{ duration: 400 }}
 						>
