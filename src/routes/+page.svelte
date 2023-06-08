@@ -2,6 +2,7 @@
 	import Hero from "./_subpages/hero.svelte"
 	import Work from "./_subpages/_work/work.svelte"
 	import Howl from "./_subpages/howl.svelte"
+	import Dog from "./_subpages/dog.svelte"
 	import SnapSection from "./snapSection.svelte"
 </script>
 
@@ -34,15 +35,16 @@
 	<SnapSection>
 		<h1>four</h1>
 	</SnapSection>
-	<SnapSection>
-		<h1>five</h1>
+	<SnapSection id="dog">
+		<Dog />
 	</SnapSection>
 	<SnapSection>
-		<h1>six</h1>
+		<img src="SVG_DOGS/Asset 5.svg" width="20%">
 	</SnapSection>
 	<SnapSection>
-		<h1>seven</h1>
+		<img src="SVG_DOGS/Asset4.svg" width="20%">
 	</SnapSection>
+	
 	<SnapSection>
 		<h1>eight</h1>
 	</SnapSection>

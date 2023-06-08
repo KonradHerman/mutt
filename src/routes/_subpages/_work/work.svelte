@@ -4,10 +4,10 @@
 	import { fade } from "svelte/transition"
 	let activeContent = false
 	const activate = key => () => {
-		activeContent = false
-		setTimeout(() => {
-			activeContent = content[key]
-		}, 500)
+		activeContent = content[key]
+		// setTimeout(() => {
+		// 	activeContent = content[key]
+		// }, 500)
 	}
 </script>
 
@@ -29,8 +29,7 @@
 				{#if activeContent}
 					<div class="align-top w-full h-1/2">
 						<iframe
-							in:fade={{ duration: 2500 }}
-							out:fade={{ duration: 400 }}
+
 							src={activeContent.video}
 							frameborder="0"
 							allow="autoplay; picture-in-picture"
@@ -41,8 +40,6 @@
 					<div>
 						<p
 							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44"
-							in:fade={{ duration: 2500 }}
-							out:fade={{ duration: 400 }}
 						>
 							{@html activeContent.text}
 						</p>
@@ -61,37 +58,37 @@
 					>
 						<a
 							class="content-link"
-							on:click={activate("tide")}>TIDE AD</a
+							on:mouseenter={activate("tide")}>TIDE AD</a
 						>
 						<a
 							class="content-link"
-							on:click={activate("got2be")}>Göt2b</a
+							on:mouseenter={activate("got2be")}>Göt2b</a
 						>
 						<a
 							class="content-link"
-							on:click={activate("olay")}>OLAY</a
+							on:mouseenter={activate("olay")}>OLAY</a
 						>
 						<a
 							class="content-link"
-							on:click={activate("neom")}>NEOM</a
+							on:mouseenter={activate("neom")}>NEOM</a
 						>
 						<a
 							class="content-link"
-							on:click={activate("verizon")}>VERIZON</a
+							on:mouseenter={activate("verizon")}>VERIZON</a
 						>
 						<a
 							class="content-link"
-							on:click={activate("bellagio")}>BELLAGIO</a
+							on:mouseenter={activate("bellagio")}>BELLAGIO</a
 						>
 						<!-- <a class="content-link">NEOM BILLBOARD</a> -->
 						<a
 							class="content-link"
-							on:click={activate("donateLife")}
+							on:mouseenter={activate("donateLife")}
 							>DONATE LIFE</a
 						>
 						<a
 							class="content-link"
-							on:click={activate("metaverse")}>METAVERSE</a
+							on:mouseenter={activate("metaverse")}>METAVERSE</a
 						>
 					</div>
 				</div>
