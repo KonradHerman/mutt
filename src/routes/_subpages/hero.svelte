@@ -63,7 +63,7 @@
 		@apply row-span-6 grid grid-cols-6 place-items-center w-full relative gap-0 h-full;
 	}
 	.motto {
-		letter-spacing: 0.1em;
+		letter-spacing: 0.3em;
 		@apply text-left text-8xl w-full h-full flex flex-col justify-end font-bold;
 	}
 	.overlay {

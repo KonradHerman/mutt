@@ -16,6 +16,10 @@
 	src: url(/fonts/AllRoundGothic-Bold.ttf) ;
 }
 @font-face {
+	font-family: AllRoundGothicDemiOblique;
+	src: url(/fonts/AllRoundGothic-DemiOblique.ttf);
+}
+@font-face {
 	font-family: AllRoundGothicMediumOblique;
 	src: url(/fonts/AllRoundGothic-MediumOblique.ttf) ;
 }
@@ -45,6 +49,9 @@
 .all-round-gothic-book-oblique {
 	font-family: AllRoundGothicBookOblique;
 }	
+.all-round-gothic-demi-oblique {
+	font-family: AllRoundGothicDemiOblique;
+}
 *{
 	margin:0;
 	padding:0;
