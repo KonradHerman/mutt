@@ -10,8 +10,19 @@
 		<div
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
-			<div />
-			<div class="title all-round-gothic-xlig">MUTT</div>
+			<div class=" col-span-4 flex w-full h-full">
+				<div
+					class=" title all-round-gothic-xlig text-8xl flex"
+				>
+					<img src="logo-black.svg" class=" h-20" alt="" />
+					MUTT
+					<p
+						class="text-8xl all-round-gothic-medium-oblique spacing"
+					>
+						PEOPLE
+					</p>
+				</div>
+			</div>
 		</div>
 		<div class="center">
 			<div class="col-span-1 -z-10" />
@@ -135,7 +146,6 @@
 		position: absolute;
 	}
 	.title {
-		font-size: 11rem;
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full ml-80;
 	}
