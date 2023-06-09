@@ -11,7 +11,7 @@
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
 			<div />
-			<div class="title">MUTT</div>
+			<div class="title all-round-gothic-xlig">MUTT</div>
 		</div>
 		<div class="center">
 			<div class="col-span-1 -z-10" />
@@ -35,10 +35,10 @@
 				</div>
 			</div>
 			<div
-				class=" w-full h-full grid grid-rows-2 text-5xl text-right pr-4"
+				class=" w-full h-full grid grid-rows-2 text-5xl text-right pr-4 all-round-gothic-book-oblique"
 			>
 				<div
-					class="w-full h-full grid grid-cols-1 place-items-end pb-6"
+					class="w-full h-full grid grid-cols-1 place-items-end pb-2"
 				>
 					<div class="  w-full">
 						<p>Kiko</p>
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<div
-					class="w-full h-full grid grid-cols-1 place-items-end pb-6"
+					class="w-full h-full grid grid-cols-1 place-items-end pb-2"
 				>
 					<div class="  w-full">
 						<p>Dave</p>
@@ -60,7 +60,7 @@
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
-				<div class="content">
+				<div class="content all-round-gothic-book-oblique">
 					<div class=" w-full h-full grid grid-rows-2 pr-4">
 						<div
 							class="w-full h-full grid grid-cols-1 place-items-end pb-6"

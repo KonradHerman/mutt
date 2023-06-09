@@ -11,7 +11,7 @@
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
 			<div />
-			<div class="title">MUTT</div>
+			<div class="title all-round-gothic-xlig">MUTT</div>
 		</div>
 		<div class="center">
 			<Sidebar color="black" />

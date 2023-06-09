@@ -19,7 +19,7 @@
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
 			<div />
-			<div class="title">MUTT</div>
+			<div class="title all-round-gothic-xlig">MUTT</div>
 		</div>
 		<div class="center">
 			<Sidebar color="black" />
@@ -40,7 +40,7 @@
 					<div>
 						<p
 							in:fade={{ duration: 700 }}
-							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44"
+							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44 all-round-gothic"
 						>
 							{@html activeContent.text}
 						</p>
@@ -55,7 +55,7 @@
 			>
 				<div class="motto">
 					<div
-						class="grid grid-cols-1 place-items-left h-full pb-6"
+						class="grid grid-cols-1 place-items-left h-full pb-6 all-round-gothic-xlig-oblique"
 					>
 						<a
 							class="content-link"

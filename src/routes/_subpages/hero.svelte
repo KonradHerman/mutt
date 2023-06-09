@@ -11,7 +11,7 @@
 		>
 			<div />
 			<div />
-			<div class="title">MUTT</div>
+			<div class="title all-round-gothic-xlig">MUTT</div>
 			<div
 				class="absolute w-full h-full grid grid-cols-6 place-items-center"
 			>
@@ -28,7 +28,7 @@
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
-				<div class="motto">
+				<div class="motto all-round-gothic">
 					<div>
 						<p class="p-8 pl-0">a production</p>
 						<p class="p-8 pl-0">& ad agency</p>

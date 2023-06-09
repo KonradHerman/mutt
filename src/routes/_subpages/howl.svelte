@@ -11,12 +11,12 @@
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
 			<div />
-			<div class="title">MUTT</div>
+			<div class="title all-round-gothic-xlig">MUTT</div>
 		</div>
 		<div class="center">
 			<Sidebar color="black" />
 			<div
-				class=" w-full h-full grid grid-cols-1 place-items-center text-5xl text-right"
+				class=" w-full h-full grid grid-cols-1 place-items-center text-5xl text-right all-round-gothic-book-oblique"
 			>
 				<div>The most</div>
 				<div>pressed</div>
@@ -33,7 +33,7 @@
 			>
 				<div class="content">
 					<div
-						class="grid grid-cols-1 place-items-left h-full pb-6 pl-6"
+						class="grid grid-cols-1 place-items-left h-full pb-6 pl-6 all-round-gothic-book-oblique"
 					>
 						<p>
 							Most of the time they deserve to be skipped.
