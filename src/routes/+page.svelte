@@ -10,8 +10,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>MUTT</title>
+	<meta name="description" content="MUTT" />
 </svelte:head>
 
 <div class="cont">
