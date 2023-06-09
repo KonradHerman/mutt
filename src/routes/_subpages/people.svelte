@@ -14,11 +14,11 @@
 			<div class="title">MUTT</div>
 		</div>
 		<div class="center">
-			<Sidebar color="black" />
+			<div class="col-span-1 -z-10" />
 			<div
-				class="absolute z-20 text-9xl w-full h-full grid grid-cols-5"
+				class="absolute text-9xl w-full h-full grid grid-cols-5"
 			>
-				<div class="col-span-1" />
+				<Sidebar color="black" />
 				<div
 					class="col-span-2 grid grid-cols-1 place-items-center pb-20"
 				>
