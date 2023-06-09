@@ -8,6 +8,48 @@
 	--font-mono: 'Fira Mono', monospace;
 
 }
+@font-face {
+	font-family: Xlig;
+	src: url(fonts/All-Round-Gothic/AllRoundGothic-XLig.ttf);
+}
+@font-face {
+	font-family: AllRoundGothic;
+	src: url(fonts/All-Round-Gothic/AllRoundGothic-Medium.ttf);
+}
+@font-face {
+	font-family: AllRoundGothicBold;
+	src: url(fonts/All-Round-Gothic/AllRoundGothic-Bold.ttf);
+}
+@font-face {
+	font-family: AllRoundGothicMediumOblique;
+	src: url(fonts/All-Round-Gothic/AllRoundGothic-MediumOblique.ttf);
+}
+@font-face {
+	font-family: AllRoundGothicXligOblique;
+	src: url(fonts/All-Round-Gothic/AllRoundGothic-XLigOblique.ttf);
+}
+@font-face {
+	font-family: AllRoundGothicBookOblique;
+	src: url(fonts/All-Round-Gothic/AllRoundGothic-BookOblique.ttf);
+}
+.xlig {
+	font-family: Xlig;
+}
+.all-round-gothic {
+	font-family: AllRoundGothic;
+}
+.all-round-gothic-bold {
+	font-family: AllRoundGothicBold;
+}
+.all-round-gothic-medium-oblique {
+	font-family: AllRoundGothicMediumOblique;
+}
+.all-round-gothic-xlig-oblique {
+	font-family: AllRoundGothicXligOblique;
+}
+.all-round-gothic-book-oblique {
+	font-family: AllRoundGothicBookOblique;
+}	
 *{
 	margin:0;
 	padding:0;

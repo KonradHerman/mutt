@@ -4,10 +4,10 @@
 	import { fade } from "svelte/transition"
 	let activeContent = false
 	const activate = key => () => {
-		activeContent = content[key]
-		// setTimeout(() => {
-		// 	activeContent = content[key]
-		// }, 500)
+		activeContent = false
+		setTimeout(() => {
+			activeContent = content[key]
+		}, 10)
 	}
 </script>
 
@@ -29,16 +29,17 @@
 				{#if activeContent}
 					<div class="align-top w-full h-1/2">
 						<iframe
-
 							src={activeContent.video}
 							frameborder="0"
 							allow="autoplay; picture-in-picture"
 							allowfullscreen
 							class="w-full p-0 m-0 h-full"
+							in:fade={{ duration: 700 }}
 						/>
 					</div>
 					<div>
 						<p
+							in:fade={{ duration: 700 }}
 							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44"
 						>
 							{@html activeContent.text}
@@ -78,7 +79,8 @@
 						>
 						<a
 							class="content-link"
-							on:mouseenter={activate("bellagio")}>BELLAGIO</a
+							on:mouseenter={activate("bellagio")}
+							>BELLAGIO</a
 						>
 						<!-- <a class="content-link">NEOM BILLBOARD</a> -->
 						<a
@@ -88,7 +90,8 @@
 						>
 						<a
 							class="content-link"
-							on:mouseenter={activate("metaverse")}>METAVERSE</a
+							on:mouseenter={activate("metaverse")}
+							>METAVERSE</a
 						>
 					</div>
 				</div>
