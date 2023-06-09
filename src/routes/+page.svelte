@@ -3,6 +3,7 @@
 	import Work from "./_subpages/_work/work.svelte"
 	import Howl from "./_subpages/howl.svelte"
 	import People from "./_subpages/people.svelte"
+	import Awards from "./_subpages/awards.svelte"
 	import Dog from "./_subpages/dog.svelte"
 	import SnapSection from "./snapSection.svelte"
 </script>
@@ -35,6 +36,9 @@
 	</SnapSection>
 	<SnapSection id="people">
 		<People />
+	</SnapSection>
+	<SnapSection id="awards">
+		<Awards />
 	</SnapSection>
 	<SnapSection id="dog">
 		<Dog />

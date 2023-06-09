@@ -16,14 +16,48 @@
 		<div class="center">
 			<Sidebar color="black" />
 			<div
-				class=" w-full h-full grid grid-cols-1 place-items-center text-5xl text-right"
+				class=" w-full h-full grid grid-cols-2 grid-flow-row place-items-center text-5xl p-6"
 			>
-				<div>The most</div>
-				<div>pressed</div>
-				<div>button</div>
-				<div>in the</div>
-				<div>world is</div>
-				<div>"skip ad"</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/1.gif" alt="" class="h-20" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/2.png" alt="" class="h-20" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/3.png" alt="" class="h-10" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/4.png" alt="" class="h-8" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/5.jpg" alt="" class="h-16" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/6.jpg" alt="" class="h-12" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/7.jpeg" alt="" class="h-20" />
+				</div>
+				<div
+					class=" h-full w-full grid grid-cols-1 place-items-center"
+				>
+					<img src="awards/8.jpg" alt="" class="h-20" />
+				</div>
 			</div>
 			<div
 				class=" w-full h-full border-b-4 border-l-4 border-black"
@@ -33,35 +67,24 @@
 			>
 				<div class="content">
 					<div
-						class="grid grid-cols-1 place-items-left h-full pb-6 pl-6"
+						class="grid grid-rows-9 place-items-center h-full w-full text-left pb-6 pl-6"
 					>
-						<p>
-							Most of the time they deserve to be skipped.
-						</p>
-						<p>
-							Because they’re bad, boring, they’re
-							just…average.
-						</p>
-						<p>
-							Average is a joy killer. Average is a waste of
-							everyone’s time.
-						</p>
-						<p>
-							We’re here with a purpose. To give ideas that
-							matter, the ones that people love and engage,
-							a bigger chance to exist. That’s why we’re not
-							only an ad agency, we’re a production house
-							too.
-						</p>
-						We’re small, faster and more efficient.<br />
-						We’re project driven. And we hire accordingly.
-						<br />
-						We’re here to unleash the kind of work people cannot
-						ignore. <br /> We’re here for the joy of doing
-						what we love. <br /> We’re here for shorter
-						calls and longer relationships. <br /> We want
-						everyone involved to be happy. <br /><br /> And occasionally
-						howling.
+						<div class="min-w-full">
+							Kiko & Dave have won all major
+						</div>
+						<div class="min-w-full">
+							awards in the industry,
+						</div>
+						<div class="min-w-full">
+							such as the Film Grand Prix
+						</div>
+						<div class="min-w-full">at Cannes Lions,</div>
+						<div class="min-w-full">
+							the D&AD Black Pencil
+						</div>
+						<div class="min-w-full">
+							the Grand Clio among many others
+						</div>
 					</div>
 				</div>
 			</div>
