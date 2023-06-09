@@ -102,10 +102,6 @@ https://vimeo.com/268997798
 
 
 
-Neom, the green mega enterprise being built in the Middle East, aimed to introduce a previously unimaginable activity to local tourists: skiing in the desert.
-
-
-
-We crafted an extraordinary story in which skiers gracefully glided not down, but up the mountain and into the sky.
+Neom, the green mega enterprise being built in the Middle East, aimed to introduce a previously unimaginable activity to local tourists: skiing in the desert.We crafted an extraordinary story in which skiers gracefully glided not down, but up the mountain and into the sky.
 
 https://vimeo.com/684252200

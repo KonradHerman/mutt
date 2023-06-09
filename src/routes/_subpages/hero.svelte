@@ -7,10 +7,18 @@
 >
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
 		<div
-			class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0"
+			class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0 relative"
 		>
 			<div />
+			<div />
 			<div class="title">MUTT</div>
+			<div
+				class="absolute w-full h-full grid grid-cols-6 place-items-center"
+			>
+				<div class="col-span-2 h-full">
+					<img src="logo.svg" alt="" class="h-full" />
+				</div>
+			</div>
 		</div>
 		<div class="center">
 			<Sidebar />
@@ -76,6 +84,5 @@
 	.title {
 		font-size: 11rem;
 		letter-spacing: 0.1em;
-		@apply row-span-5  w-full h-full ml-80;
 	}
 </style>
