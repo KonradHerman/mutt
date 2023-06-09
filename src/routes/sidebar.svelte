@@ -12,7 +12,7 @@
 </script>
 
 <div
-	class=" all-round-gothic-bold w-full h-full text-right pr-10 pt-20 flex flex-col gap-10 items-end text-lg {color} all-round-gothic"
+	class="  w-full h-full text-right pr-10 pt-20 flex flex-col gap-10 items-end text-lg {color} all-round-gothic"
 >
 	<a href="#work" on:click|preventDefault={scrollIntoView}
 		>Work</a
@@ -27,10 +27,13 @@
 	<a href="#awards" on:click|preventDefault={scrollIntoView}
 		>Awards</a
 	>
-	<a href="">Woof</a>
+	<a href="#woof">Woof</a>
 </div>
 
 <style>
+	.weight {
+		font-weight: 100;
+	}
 	a {
 		float: right;
 		text-decoration: none;

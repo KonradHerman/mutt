@@ -51,7 +51,7 @@
 					<div>
 						<p
 							in:fade={{ duration: 700 }}
-							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44 all-round-gothic-demi-oblique"
+							class="text-justify p-4 pb-0 pl-0 mb-0 text-sm max-h-44 all-round-gothic weight"
 						>
 							{@html activeContent.text}
 						</p>
@@ -181,5 +181,9 @@
 	a:hover:after {
 		width: 100%;
 		left: 0;
+	}
+	.weight {
+		letter-spacing: 0.1em;
+		font-weight: 100;
 	}
 </style>

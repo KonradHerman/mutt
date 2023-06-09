@@ -6,6 +6,7 @@
 	import Awards from "./_subpages/awards.svelte"
 	import Dog from "./_subpages/dog.svelte"
 	import SnapSection from "./snapSection.svelte"
+	import Woof from "./_subpages/ woof.svelte"
 </script>
 
 <svelte:head>
@@ -40,18 +41,12 @@
 	<SnapSection id="awards">
 		<Awards />
 	</SnapSection>
+
+	<SnapSection id="woof">
+		<Woof />
+	</SnapSection>
 	<SnapSection id="dog">
 		<Dog />
-	</SnapSection>
-	<SnapSection>
-		<img src="SVG_DOGS/Asset 5.svg" width="20%" />
-	</SnapSection>
-	<SnapSection>
-		<img src="SVG_DOGS/Asset4.svg" width="20%" />
-	</SnapSection>
-
-	<SnapSection>
-		<h1>eight</h1>
 	</SnapSection>
 </div>
 
@@ -61,10 +56,6 @@
 		overflow-y: scroll;
 		overflow-x: hidden;
 		height: 100vh;
-	}
-
-	h1 {
-		color: black;
 	}
 	video {
 		width: 100%;
