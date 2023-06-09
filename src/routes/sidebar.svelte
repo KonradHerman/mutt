@@ -21,7 +21,9 @@
 	<a href="#howl" on:click|preventDefault={scrollIntoView}
 		>Howl</a
 	>
-	<a href="">People</a>
+	<a href="#people" on:click|preventDefault={scrollIntoView}
+		>People</a
+	>
 	<a href="">Awards</a>
 	<a href="">Woof</a>
 </div>
