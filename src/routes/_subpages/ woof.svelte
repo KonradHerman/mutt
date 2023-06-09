@@ -14,7 +14,11 @@
 				<div
 					class=" title all-round-gothic-xlig text-8xl flex"
 				>
-					<img src="logo-black.svg" class=" h-20" alt="" />
+					<img
+						src="logo-black.svg"
+						class=" h-20 pr-4"
+						alt=""
+					/>
 					MUTT
 					<p
 						class="text-8xl all-round-gothic-medium-oblique spacing"
