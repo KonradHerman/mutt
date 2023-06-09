@@ -84,7 +84,7 @@
 	</div>
 </div>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 	.center {
 		@apply row-span-6 grid grid-cols-5 place-items-center w-full relative gap-0 h-full;
 	}

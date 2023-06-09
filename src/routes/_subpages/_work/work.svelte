@@ -115,7 +115,7 @@
 	</div>
 </div>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 	.content-link {
 		@apply py-1 ml-5 pl-0 cursor-pointer uppercase;
 	}

@@ -2,15 +2,21 @@
 	import Sidebar from "../sidebar.svelte"
 </script>
 
-<div class="two flex flex-col relative text-white w-full h-full">
+<div
+	class="two flex flex-col relative text-white w-full h-full"
+>
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
-		<div class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0">
+		<div
+			class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0"
+		>
 			<div />
 			<div class="title">MUTT</div>
 		</div>
 		<div class="center">
 			<Sidebar />
-			<div class=" w-full h-full border-l-4 border-b-4 border-white" />
+			<div
+				class=" w-full h-full border-l-4 border-b-4 border-white"
+			/>
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
@@ -27,10 +33,14 @@
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
 		</div>
-		<div class="row-span-3 grid grid-cols-6 place-items-center w-full mb-20">
+		<div
+			class="row-span-3 grid grid-cols-6 place-items-center w-full mb-20"
+		>
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
-			<div class="  w-full h-full border-r-4 border-white relative">
+			<div
+				class="  w-full h-full border-r-4 border-white relative"
+			>
 				<div class="arrow" />
 			</div>
 			<div class="  w-full h-full" />
@@ -40,7 +50,7 @@
 	</div>
 </div>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 	.center {
 		@apply row-span-6 grid grid-cols-6 place-items-center w-full relative gap-0 h-full;
 	}
