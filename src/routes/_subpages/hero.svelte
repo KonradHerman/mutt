@@ -26,13 +26,13 @@
 				class=" w-full h-full border-l-4 border-b-4 border-white"
 			/>
 			<div
-				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
+				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center outline-dashed"
 			>
 				<div class="motto all-round-gothic">
 					<div>
 						<p class="p-8 pl-0">a production</p>
 						<p class="p-8 pl-0">& ad agency</p>
-						<p class="p-8 pl-0">mongrel</p>
+						<p class="p-8 pl-0 pb-0">mongrel</p>
 					</div>
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 	}
 	.motto {
 		letter-spacing: 0.4em;
-		@apply text-left text-9xl w-full h-full flex flex-col justify-end font-bold;
+		@apply text-left text-9xl w-full h-5/6 flex flex-col justify-end font-bold;
 	}
 	.overlay {
 		width: 80%;
