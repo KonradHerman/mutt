@@ -26,7 +26,7 @@
 				class=" w-full h-full border-l-4 border-b-4 border-white"
 			/>
 			<div
-				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center outline-dashed"
+				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
 				<div class="motto all-round-gothic">
 					<div>
