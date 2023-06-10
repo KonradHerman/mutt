@@ -31,7 +31,7 @@
 		<div class="center">
 			<Sidebar color="black" />
 			<div
-				class=" w-full h-full grid grid-cols-1 place-items-center text-5xl text-right all-round-gothic-book-oblique"
+				class=" w-full h-full grid grid-cols-1 place-items-center text-5xl text-right all-round-gothic-book-oblique weight"
 			>
 				<div>The most</div>
 				<div>pressed</div>
@@ -125,5 +125,8 @@
 	.title {
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full ml-80;
+	}
+	.weight {
+		font-weight: 100;
 	}
 </style>
