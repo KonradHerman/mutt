@@ -7,11 +7,16 @@
 >
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
 		<div
-			class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0 relative"
+			class="row-span-1 grid grid-cols-7 lg:grid-cols-6 place-items-center p-0 m-0 relative"
 		>
 			<div />
 			<div />
-			<div class="title all-round-gothic-xlig">MUTT</div>
+			<div class="lg:hidden" />
+			<div
+				class="title all-round-gothic-xlig text-6xl md:text-9xl"
+			>
+				MUTT
+			</div>
 			<div
 				class="absolute w-full h-full grid grid-cols-6 place-items-center"
 			>
@@ -28,8 +33,10 @@
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
 			>
-				<div class="motto all-round-gothic">
-					<div>
+				<div
+					class="motto all-round-gothic text-center md:text-left text-4xl sm:text-5xl md:text-7xl xl:text-9xl"
+				>
+					<div class="grid-query outline-dashed h-full">
 						<p class="p-8 pl-0">a production</p>
 						<p class="p-8 pl-0">& ad agency</p>
 						<p class="p-8 pl-0 pb-0">mongrel</p>
@@ -42,7 +49,7 @@
 			<div class=" w-full h-full" />
 		</div>
 		<div
-			class="row-span-3 grid grid-cols-6 place-items-center w-full mb-20"
+			class="row-span-3 grid grid-cols-6 place-items-center w-full mb-2 lg:mb-20"
 		>
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
@@ -64,7 +71,7 @@
 	}
 	.motto {
 		letter-spacing: 0.4em;
-		@apply text-left text-9xl w-full h-5/6 flex flex-col justify-end font-bold;
+		@apply w-full h-5/6 flex flex-col justify-end font-bold;
 	}
 	.overlay {
 		width: 80%;
@@ -82,7 +89,14 @@
 		position: absolute;
 	}
 	.title {
-		font-size: 11rem;
 		letter-spacing: 0.1em;
+	}
+	@media (max-width: 768px) {
+		.grid-query {
+			/* Change the grid to a single column on small screens. */
+			grid-template-columns: 1fr;
+			justify-items: stretch;
+			align-items: stretch;
+		}
 	}
 </style>
