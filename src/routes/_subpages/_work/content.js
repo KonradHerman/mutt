@@ -21,7 +21,7 @@ export const content = {
 	},
 	verizon: {
 		video:
-			"https://player.vimeo.com/video/833333393?h=33a7e99454&title=0&byline=0&portrait=0",
+			"https://player.vimeo.com/video/313249817?h=0aa6d5d1ef&autoplay=1&loop=1&title=0&byline=0&portrait=0",
 		text: "Every year, 40,000 Americans owe their lives to first responders and millions of first responders rely on the network.  We told the stories of a special few who had been saved — 11 NFL players and a head coach. Their stories became a 12-part film series, 30-minute CBS documentary. The film series became the most talked about SuperBowl campaign and solidified Verizon’s reputation as the most reliable network.",
 	},
 	bellagio: {
