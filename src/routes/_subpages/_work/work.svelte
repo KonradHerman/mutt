@@ -52,10 +52,10 @@
 							in:fade={{ duration: 700 }}
 						/>
 					</div>
-					<div>
+					<div class="w-full h-1/2">
 						<p
 							in:fade={{ duration: 700 }}
-							class="text-justify p-4 pb-0 pl-0 mb-0 text-md max-h-44 all-round-gothic-book-oblique weight"
+							class="text-justify p-4 pb-0 pl-0 mb-0 text-xs md:text-sm max-h-44 all-round-gothic-book-oblique weight"
 						>
 							{@html activeContent.text}
 						</p>
