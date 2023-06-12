@@ -32,7 +32,7 @@ export const content = {
 	donateLife: {
 		video:
 			"https://player.vimeo.com/video/348841980?h=220b13c0df&title=0&byline=0&portrait=0",
-		text: "People die every day because there are not enough organ donors. An organ donor gives someone a second chance at life and most organ donations happen because of a simple box checked while renewing your drivers license. We leveraged this insight and rewarded organ donors who had committed a traffic violation with a ‘2nd Chance Ticket’ to raise awareness. The donors were overjoyed to get a second chance and a lot of people got a genuine second chance at life because several police departments picked up the program and the awareness generated a significant increase in organ donations. The results were astounding and lives were saved.",
+		text: "People die every day because there are not enough organ donors. We rewarded organ donors who had committed a traffic violation with a ‘2nd Chance Ticket’ as a hidden camera stunt with real police departments to raise awareness. Organ donations went way up, lives were saved, awards won.",
 	},
 	metaverse: {
 		video:
