@@ -36,7 +36,7 @@
 				<div
 					class="motto all-round-gothic text-center md:text-left text-4xl sm:text-5xl md:text-7xl xl:text-9xl"
 				>
-					<div class="grid-query outline-dashed h-full">
+					<div class="grid-query h-full">
 						<p class="p-8 pl-0">a production</p>
 						<p class="p-8 pl-0">& ad agency</p>
 						<p class="p-8 pl-0 pb-0">mongrel</p>
