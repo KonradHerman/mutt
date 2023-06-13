@@ -12,7 +12,7 @@
 		>
 			<div class=" col-span-4 flex w-full h-full">
 				<div
-					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-80"
+					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
 				>
 					<img
 						src="logo-black.svg"
@@ -163,6 +163,6 @@
 		}
 	}
 	.howling {
-		font-weight: 900;
+		font-weight: bold;
 	}
 </style>

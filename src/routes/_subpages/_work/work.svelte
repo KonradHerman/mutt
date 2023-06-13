@@ -20,7 +20,7 @@
 		>
 			<div class=" col-span-4 flex w-full h-full">
 				<div
-					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-80"
+					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
 				>
 					<img
 						src="logo-black.svg"
@@ -42,7 +42,7 @@
 				class=" w-full h-full content flex flex-col items-center"
 			>
 				{#if activeContent}
-					<div class="align-top w-full h-1/3 lg:h-1/2">
+					<div class="align-top w-full h-1/3 xl:h-1/2">
 						<iframe
 							src={activeContent.video}
 							frameborder="0"
@@ -52,7 +52,7 @@
 							in:fade={{ duration: 700 }}
 						/>
 					</div>
-					<div class="w-full h-2/3 lg:h-1/2">
+					<div class="w-full h-2/3 xl:h-1/2">
 						<p
 							in:fade={{ duration: 700 }}
 							class="text-justify p-1 md:p-4 pb-0 pl-0 mb-0 max-h-44 all-round-gothic-book-oblique weight work-content"
