@@ -48,7 +48,7 @@
 			>
 				<div class="content">
 					<div
-						class="grid grid-cols-1 place-items-left h-full pb-6 pl-6 all-round-gothic-book-oblique"
+						class="grid grid-cols-1 place-content-evenly h-full pb-0 pl-6 all-round-gothic-book-oblique"
 					>
 						<p>
 							Most of the time they deserve to be skipped.
@@ -75,8 +75,10 @@
 						ignore. <br /> We’re here for the joy of doing
 						what we love. <br /> We’re here for shorter
 						calls and longer relationships. <br /> We want
-						everyone involved to be happy. <br /><br /> And occasionally
-						howling.
+						everyone involved to be happy. <br /><br />
+						<p class="howling font-extrabold">
+							And occasionally howling.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -159,5 +161,8 @@
 			width: 25px;
 			height: 25px;
 		}
+	}
+	.howling {
+		font-weight: 900;
 	}
 </style>
