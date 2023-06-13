@@ -191,7 +191,7 @@
 		font-weight: 100;
 	}
 	.work-content {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 	}
 	@media (max-width: 1300px) {
 		.work-content {
