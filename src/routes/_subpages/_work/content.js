@@ -37,6 +37,6 @@ export const content = {
 	metaverse: {
 		video:
 			"https://player.vimeo.com/video/348841980?h=220b13c0df&title=0&byline=0&portrait=0",
-		text: 'How does the agency who hasn’t done a Metaverse project remain relevant in the burgeoning space and retain and attract clients? Answer: Deliver a best in category complex innovative experience for Cannes featuring the agency’s best work across a multitude of clients on an insane five week timeline. Check it out, it’s a nice place to visit: <a href="https://web.journee.live/mwverse" style="text-decoration: underline;">https://web.journee.live/mwverse</a>. ',
+		text: 'How does the agency who hasn’t done a Metaverse project remain relevant in the burgeoning space and retain and attract clients? Answer: Deliver a best in category complex innovative experience for Cannes featuring the agency’s best work across a multitude of clients on an insane five week timeline. Check it out, it’s a nice place to visit: <a href="https://web.journee.live/mwverse" style="text-decoration: underline;">web.journee</a>. ',
 	},
 }

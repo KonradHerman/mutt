@@ -12,16 +12,16 @@
 		>
 			<div class=" col-span-4 flex w-full h-full">
 				<div
-					class=" title all-round-gothic-xlig text-8xl flex"
+					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-80"
 				>
 					<img
 						src="logo-black.svg"
-						class=" h-20 pr-4"
+						class="h-10 lg:h-20 pr-4"
 						alt=""
 					/>
 					MUTT
 					<p
-						class="text-8xl all-round-gothic-medium-oblique spacing"
+						class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
 					>
 						HOWL
 					</p>
@@ -31,7 +31,7 @@
 		<div class="center">
 			<Sidebar color="black" />
 			<div
-				class=" w-full h-full grid grid-cols-1 place-items-center text-5xl text-right all-round-gothic-book-oblique weight"
+				class=" w-full h-full grid grid-cols-1 place-items-center sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl text-right all-round-gothic-book-oblique weight"
 			>
 				<div>The most</div>
 				<div>pressed</div>
@@ -105,7 +105,7 @@
 	}
 	.content {
 		letter-spacing: 0.1em;
-		@apply text-justify text-xl w-full h-full flex flex-col justify-end font-bold pr-20;
+		@apply text-justify  w-full h-full flex flex-col justify-end font-bold pr-6 md:pr-8 lg:pr-20;
 	}
 	.overlay {
 		width: 60%;
@@ -124,9 +124,40 @@
 	}
 	.title {
 		letter-spacing: 0.1em;
-		@apply row-span-5  w-full h-full ml-80;
+		@apply row-span-5  w-full h-full;
 	}
 	.weight {
 		font-weight: 100;
+	}
+	@media (max-width: 1300px) {
+		.content {
+			font-size: 1rem;
+		}
+	}
+	@media (max-width: 1250px) {
+		.content {
+			font-size: 0.9rem;
+		}
+	}
+	@media (max-width: 1024px) {
+		.content {
+			font-size: 0.9rem;
+		}
+	}
+	@media (max-width: 800px) {
+		.content {
+			font-size: 0.7rem;
+		}
+	}
+	@media (max-width: 540px) {
+		.content {
+			font-size: 0.6rem;
+		}
+	}
+	@media (max-width: 1024px) {
+		.arrow {
+			width: 25px;
+			height: 25px;
+		}
 	}
 </style>

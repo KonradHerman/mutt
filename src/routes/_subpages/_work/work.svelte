@@ -20,16 +20,16 @@
 		>
 			<div class=" col-span-4 flex w-full h-full">
 				<div
-					class=" title all-round-gothic-xlig text-8xl flex"
+					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-80"
 				>
 					<img
 						src="logo-black.svg"
-						class=" h-20 pr-4"
+						class="h-10 lg:h-20 pr-4"
 						alt=""
 					/>
 					MUTT
 					<p
-						class="text-8xl all-round-gothic-medium-oblique spacing"
+						class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
 					>
 						WORK
 					</p>
@@ -42,7 +42,7 @@
 				class=" w-full h-full content flex flex-col items-center"
 			>
 				{#if activeContent}
-					<div class="align-top w-full h-1/2">
+					<div class="align-top w-full h-1/3 lg:h-1/2">
 						<iframe
 							src={activeContent.video}
 							frameborder="0"
@@ -52,10 +52,10 @@
 							in:fade={{ duration: 700 }}
 						/>
 					</div>
-					<div class="w-full h-1/2">
+					<div class="w-full h-2/3 lg:h-1/2">
 						<p
 							in:fade={{ duration: 700 }}
-							class="text-justify p-4 pb-0 pl-0 mb-0 text-xs md:text-sm max-h-44 all-round-gothic-book-oblique weight"
+							class="text-justify p-1 md:p-4 pb-0 pl-0 mb-0 max-h-44 all-round-gothic-book-oblique weight work-content"
 						>
 							{@html activeContent.text}
 						</p>
@@ -161,7 +161,7 @@
 	}
 	.title {
 		letter-spacing: 0.1em;
-		@apply row-span-5  w-full h-full ml-80;
+		@apply row-span-5  w-full h-full;
 	}
 	a {
 		float: left;
@@ -189,5 +189,39 @@
 	.weight {
 		letter-spacing: 0.1em;
 		font-weight: 100;
+	}
+	.work-content {
+		font-size: 0.8rem;
+	}
+	@media (max-width: 1300px) {
+		.work-content {
+			font-size: 0.7rem;
+		}
+	}
+	@media (max-width: 1024px) {
+		.work-content {
+			font-size: 0.65rem;
+		}
+	}
+	@media (max-width: 800px) {
+		.work-content {
+			font-size: 0.6rem;
+		}
+	}
+	@media (max-width: 680px) {
+		.work-content {
+			font-size: 0.55rem;
+		}
+	}
+	@media (max-width: 600px) {
+		.work-content {
+			font-size: 0.5rem;
+		}
+	}
+	@media (max-width: 1024px) {
+		.arrow {
+			width: 25px;
+			height: 25px;
+		}
 	}
 </style>
