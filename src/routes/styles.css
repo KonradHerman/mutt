@@ -49,6 +49,10 @@
 .all-round-gothic-book-oblique {
 	font-family: AllRoundGothicBookOblique;
 }	
+.all-round-gothic-book-oblique-bold {
+	font-family: AllRoundGothicBookOblique;
+	font-weight: 900;
+}
 .all-round-gothic-demi-oblique {
 	font-family: AllRoundGothicDemiOblique;
 }

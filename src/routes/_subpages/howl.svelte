@@ -76,7 +76,10 @@
 						what we love. <br /> We’re here for shorter
 						calls and longer relationships. <br /> We want
 						everyone involved to be happy. <br /><br />
-						<p class="howling font-extrabold">
+						<p
+							class="howling font-extrabold all-round-gothic-book-oblique-bold"
+							id="howling"
+						>
 							And occasionally howling.
 						</p>
 					</div>
@@ -131,6 +134,12 @@
 	.weight {
 		font-weight: 100;
 	}
+	.howling {
+		font-weight: 900 !important;
+	}
+	#howling {
+		font-weight: 900 !important;
+	}
 	@media (max-width: 1300px) {
 		.content {
 			font-size: 1rem;
@@ -161,8 +170,5 @@
 			width: 25px;
 			height: 25px;
 		}
-	}
-	.howling {
-		font-weight: bold;
 	}
 </style>
