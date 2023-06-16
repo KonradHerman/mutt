@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div
-				class=" w-full h-full grid grid-rows-2 text-5xl text-right pr-4 all-round-gothic-book-oblique"
+				class=" w-full h-full grid grid-rows-2 text-xl md:text-4xl lg:text-5xl text-right pr-4 all-round-gothic-book-oblique"
 			>
 				<div
 					class="w-full h-full grid grid-cols-1 place-items-end pb-2"
@@ -80,7 +80,7 @@
 						<div
 							class="w-full h-full grid grid-cols-1 place-items-end pb-6"
 						>
-							<div class="  w-full pl-6">
+							<div class="  w-full pl-12 md:pl-6">
 								<p>
 									More than 20 years working in the ad world
 									creating ideas for brands such as Tide,
@@ -93,7 +93,7 @@
 						<div
 							class="w-full h-full grid grid-cols-1 place-items-end pb-6"
 						>
-							<div class="  w-full pl-6">
+							<div class="  w-full pl-12 md:pl-6">
 								<p>
 									Brings 25 years production experience from
 									Verizon, Mastercard, MGM, BMW, NY Lottery,
@@ -132,7 +132,7 @@
 	}
 	.content {
 		letter-spacing: 0.1em;
-		@apply text-justify text-xl w-full h-full flex flex-col justify-end font-bold pr-20;
+		@apply text-justify text-sm lg:text-lg xl:text-xl w-full h-full flex flex-col justify-end font-bold pr-20;
 	}
 	.overlay {
 		width: 60%;
@@ -152,5 +152,10 @@
 	.title {
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full ml-80;
+	}
+	@media (max-width: 550px) {
+		.content {
+			font-size: 0.7rem;
+		}
 	}
 </style>
