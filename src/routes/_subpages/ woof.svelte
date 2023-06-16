@@ -41,23 +41,23 @@
 					class="content grid grid-cols-1 place-items-center"
 				>
 					<div
-						class="w-full h-full grid grid-cols-1 place-items-center pl-12 text-9xl all-round-gothic-book-oblique spacing"
+						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-3xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing"
 					>
 						<div class="w-full text-left">Let's make</div>
 					</div>
 					<div
-						class="w-full h-full grid grid-cols-1 place-items-center pl-12 text-9xl all-round-gothic-book-oblique spacing"
+						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-3xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing"
 					>
 						<div class="w-full text-left">something</div>
 					</div>
 					<div
-						class="w-full h-full grid grid-cols-1 place-items-center pl-12 text-9xl all-round-gothic-book-oblique spacing"
+						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-3xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing"
 					>
 						<div class="w-full text-left">together.</div>
 					</div>
 				</div>
 				<div
-					class=" text-3xl all-round-gothic-book-oblique pl-12 pb-6"
+					class=" text-xl md:text-3xl all-round-gothic-book-oblique pl-6 md:pl-12 pb-6"
 				>
 					<a href="mailto:woof@mutt.media"
 						>Find us at <span class="underline"
