@@ -170,7 +170,7 @@
 					>
 						<a
 							class="content-link"
-							on:mouseenter={activate("tide")}>TIDE AD</a
+							on:mouseenter={activate("tide")}>TIDE</a
 						>
 						<a
 							class="content-link"
@@ -271,7 +271,7 @@
 	}
 	a:after {
 		background: none repeat scroll 0 0 transparent;
-		bottom: 0;
+		bottom: 30px;
 		content: "";
 		display: block;
 		height: 2px;
@@ -280,6 +280,11 @@
 		background: black;
 		transition: width 0.3s ease 0s, left 0.3s ease 0s;
 		width: 0;
+	}
+	@media screen and (max-height: 865px) {
+		a:after {
+			bottom: 10px;
+		}
 	}
 	a:hover:after {
 		width: 100%;
