@@ -146,6 +146,12 @@
 							class="text-justify p-1 md:p-4 pb-0 pl-0 mb-0 max-h-44 all-round-gothic-book-oblique weight work-content"
 						>
 							{@html activeContent.text}
+							<br />
+							<span
+								class="font-extrabold all-round-gothic-xlig"
+							>
+								{activeContent.end}
+							</span>
 						</p>
 					</div>
 				{/if}
