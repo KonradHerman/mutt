@@ -22,12 +22,8 @@
 			<div
 				class="absolute w-full h-full grid grid-cols-6 place-items-center"
 			>
-				<div class="col-span-2">
-					<img
-						src="logo2.png"
-						alt=""
-						class="h-32 md:h-44"
-					/>
+				<div class="col-span-2 h-full">
+					<img src="logo.svg" alt="" class="h-full" />
 				</div>
 			</div>
 		</div>
