@@ -9,12 +9,69 @@
 			activeContent = content[key]
 		}, 10)
 	}
-	let maximize = false
+	let showMaximizeButton = false
+	let showMinimizeButton = false
+	let maximized = false
+	const maximize = () => {
+		maximized = true
+	}
+	const minimize = () => {
+		maximized = false
+	}
 </script>
 
 <div
 	class="two flex flex-col relative text-black w-full h-full"
 >
+	{#if maximized}
+		<div
+			class="align-top w-full h-full absolute z-40 grid grid-cols-5 place-items-center"
+			transition:fade={{ duration: 700 }}
+		>
+			<div />
+			<div class="col-span-4 w-full h-full outline-dashed">
+				<div
+					class="flex flex-col items-center justify-center w-full h-full"
+				>
+					<div
+						class="w-full h-2/3 z-50 relative"
+						on:mouseenter={() => {
+							showMinimizeButton = true
+						}}
+						on:mouseleave={() => {
+							showMinimizeButton = false
+						}}
+					>
+						<iframe
+							src={activeContent.video}
+							frameborder="0"
+							allow="autoplay; picture-in-picture"
+							allowfullscreen
+							class="w-full p-0 m-0 h-full"
+							in:fade={{ duration: 700 }}
+						/>
+						{#if showMinimizeButton}
+							<div
+								class="absolute inset-0 grid grid-cols-1 place-items-center"
+							>
+								<div
+									class=" maximize text-center rounded-full border-4 hover:shadow-2xl hover:shadow-white cursor-pointer transition-all duration-500 ease-in-out"
+									transition:fade={{ duration: 700 }}
+								>
+									<img
+										src="minimize.svg"
+										alt=""
+										class="h-12 p-2"
+										on:click={minimize}
+									/>
+								</div>
+							</div>
+						{/if}
+					</div>
+				</div>
+			</div>
+		</div>
+	{/if}
 	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
 		<div
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
@@ -37,8 +94,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="center">
-			<Sidebar color="black" />
+
+		<div class="center {maximized ? 'text-white' : ''}">
+			<Sidebar color="black" class="text-black" />
+
 			<div
 				class=" w-full h-full content flex flex-col items-center"
 			>
@@ -46,21 +105,23 @@
 					<div
 						class="align-top w-full h-1/3 xl:h-1/2 relative"
 						on:mouseenter={() => {
-							maximize = true
+							showMaximizeButton = true
 						}}
 						on:mouseleave={() => {
-							maximize = false
+							showMaximizeButton = false
 						}}
 					>
-						<iframe
-							src={activeContent.video}
-							frameborder="0"
-							allow="autoplay; picture-in-picture"
-							allowfullscreen
-							class="w-full p-0 m-0 h-full"
-							in:fade={{ duration: 700 }}
-						/>
-						{#if maximize}
+						{#if !maximized}
+							<iframe
+								src={activeContent.video}
+								frameborder="0"
+								allow="autoplay; picture-in-picture"
+								allowfullscreen
+								class="w-full p-0 m-0 h-full"
+								in:fade={{ duration: 700 }}
+							/>
+						{/if}
+						{#if showMaximizeButton}
 							<div
 								class="absolute inset-0 grid grid-cols-1 place-items-center"
 							>
@@ -72,11 +133,13 @@
 										src="maximize.png"
 										alt=""
 										class="h-12 p-2"
+										on:click={maximize}
 									/>
 								</div>
 							</div>
 						{/if}
 					</div>
+
 					<div class="w-full h-2/3 xl:h-1/2">
 						<p
 							in:fade={{ duration: 700 }}
@@ -88,7 +151,9 @@
 				{/if}
 			</div>
 			<div
-				class=" w-full h-full border-b-4 border-l-4 border-black"
+				class=" w-full h-full border-b-4 border-l-4 border-black {maximized
+					? 'border-white'
+					: ''}"
 			/>
 			<div
 				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
@@ -145,9 +210,13 @@
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
 			<div
-				class="  w-full h-full border-r-4 border-black relative"
+				class="  w-full h-full border-r-4 border-black {maximized
+					? 'border-white'
+					: ''} relative"
 			>
-				<div class="arrow" />
+				<div
+					class="arrow {!maximized ? 'arrowVisible' : ''}"
+				/>
 			</div>
 			<div class="  w-full h-full" />
 			<div class="  w-full h-full" />
@@ -176,8 +245,7 @@
 	.arrow {
 		width: 50px;
 		height: 50px;
-		border-left: 4px solid black;
-		border-bottom: 4px solid black;
+
 		transform: rotate(315deg);
 		right: -2px;
 		bottom: 5px;
@@ -248,6 +316,10 @@
 			width: 25px;
 			height: 25px;
 		}
+	}
+	.arrowVisible {
+		border-left: 4px solid black;
+		border-bottom: 4px solid black;
 	}
 	.maximize:hover {
 		background: rgba(120, 119, 119, 0.529);
