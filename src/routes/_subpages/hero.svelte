@@ -15,7 +15,7 @@
 			<div />
 			<div class="lg:hidden" />
 			<div
-				class="title all-round-gothic-xlig text-6xl md:text-9xl"
+				class="title all-round-gothic-xlig text-6xl md:text-8xl"
 			>
 				MUTT
 			</div>

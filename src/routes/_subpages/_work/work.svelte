@@ -29,7 +29,7 @@
 			transition:fade={{ duration: 700 }}
 		>
 			<div />
-			<div class="col-span-4 w-full h-full outline-dashed">
+			<div class="col-span-4 w-full h-full">
 				<div
 					class="flex flex-col items-center justify-center w-full h-full"
 				>
