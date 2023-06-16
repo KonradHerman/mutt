@@ -9,6 +9,7 @@
 			activeContent = content[key]
 		}, 10)
 	}
+	let maximize = false
 </script>
 
 <div
@@ -42,7 +43,15 @@
 				class=" w-full h-full content flex flex-col items-center"
 			>
 				{#if activeContent}
-					<div class="align-top w-full h-1/3 xl:h-1/2">
+					<div
+						class="align-top w-full h-1/3 xl:h-1/2 relative"
+						on:mouseenter={() => {
+							maximize = true
+						}}
+						on:mouseleave={() => {
+							maximize = false
+						}}
+					>
 						<iframe
 							src={activeContent.video}
 							frameborder="0"
@@ -51,6 +60,22 @@
 							class="w-full p-0 m-0 h-full"
 							in:fade={{ duration: 700 }}
 						/>
+						{#if maximize}
+							<div
+								class="absolute inset-0 grid grid-cols-1 place-items-center"
+							>
+								<div
+									class="maximize text-center rounded-full border-4 hover:shadow-2xl hover:shadow-white cursor-pointer transition-all duration-500 ease-in-out"
+									transition:fade={{ duration: 700 }}
+								>
+									<img
+										src="maximize.png"
+										alt=""
+										class="h-12 p-2"
+									/>
+								</div>
+							</div>
+						{/if}
 					</div>
 					<div class="w-full h-2/3 xl:h-1/2">
 						<p
@@ -223,5 +248,8 @@
 			width: 25px;
 			height: 25px;
 		}
+	}
+	.maximize:hover {
+		background: rgba(120, 119, 119, 0.529);
 	}
 </style>
