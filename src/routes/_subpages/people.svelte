@@ -12,16 +12,16 @@
 		>
 			<div class=" col-span-4 flex w-full h-full">
 				<div
-					class=" title all-round-gothic-xlig text-8xl flex"
+					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
 				>
 					<img
 						src="logo-black.svg"
-						class=" h-20 pr-4"
+						class="h-10 lg:h-20 pr-4"
 						alt=""
 					/>
 					MUTT
 					<p
-						class="text-8xl all-round-gothic-medium-oblique spacing"
+						class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
 					>
 						PEOPLE
 					</p>
@@ -151,7 +151,7 @@
 	}
 	.title {
 		letter-spacing: 0.1em;
-		@apply row-span-5  w-full h-full ml-80;
+		@apply row-span-5  w-full h-full;
 	}
 	@media (max-width: 550px) {
 		.content {
