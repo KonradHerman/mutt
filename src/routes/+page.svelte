@@ -26,6 +26,21 @@
 		console.log(mobile)
 		console.log(window.innerWidth)
 	})
+
+
+	function isInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    	return (
+        	rect.top >= 0 &&
+       		rect.left >= 0 &&
+        	rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        	rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    	);
+	}
+
+const hero = document.querySelector('#myVideo');
+isInViewport(box) 
+
 </script>
 
 <svelte:head>
@@ -33,7 +48,19 @@
 	<meta name="description" content="MUTT" />
 </svelte:head>
 
-<div class="cont">
+
+
+<div class="cont ">
+	{#if mobile}
+		<div class="z-10 fixed w-full h-20 text-white align-top mx-4 grid grid-cols-1 place-items-center pt-4">
+		
+			<div class="flex items-center">
+				<img src="logo.svg" alt="" class="h-20  col-span-1 align-top" />
+				<div class="title all-round-gothic-xlig text-[5rem] leading-4 tracking-wide md:text-9xl self-center px-4">MUTT</div>
+			</div>	
+		</div>
+	{/if}
+		
 	<SnapSection>
 		<video
 			autoplay

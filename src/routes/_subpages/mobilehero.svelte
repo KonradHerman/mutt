@@ -2,8 +2,8 @@
 	import Sidebar from "../sidebar.svelte"
 </script>
 
-<div class="z-10 flex  w-full h-full absolute">
-	<div class=" w-full h-20 text-white align-top mx-4 grid grid-cols-1 place-items-center bg-red-500">
+<!-- <div class="z-10 flex  w-full h-full absolute">
+	<div class=" w-full h-20 text-white align-top mx-4 grid grid-cols-1 place-items-center bg-green-400">
 
 			<div class="flex h-full w-full items-center">
 					<img src="logo.svg" alt="" class="h-20 col-span-1 align-top" />
@@ -13,7 +13,7 @@
 
 		</div>
 	</div>
-</div>
+</div> -->
 
 <style lang="postcss" scoped>
 	.center {
