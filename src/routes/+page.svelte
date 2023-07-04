@@ -6,7 +6,26 @@
 	import Awards from "./_subpages/awards.svelte"
 	import Dog from "./_subpages/dog.svelte"
 	import SnapSection from "./snapSection.svelte"
-	import Woof from "./_subpages/ woof.svelte"
+	import Woof from "./_subpages/woof.svelte"
+	import MobileHero from "./_subpages/mobileHero.svelte"
+  	import { onMount } from "svelte";
+	// if screen is mobile sized set mobile to true
+	let mobile = true
+	// if (window.innerWidth < 768) {
+	// 	mobile = true
+	// } else {
+	// 	mobile = false
+	// }
+	onMount (() => {
+		// if screen is mobile sized set mobile to true
+		if (window.innerWidth < 768) {
+			mobile = true
+		} else {
+			mobile = false
+		}
+		console.log(mobile)
+		console.log(window.innerWidth)
+	})
 </script>
 
 <svelte:head>
@@ -21,11 +40,17 @@
 			muted
 			loop
 			id="myVideo"
-			class="absolute z-100"
+			class="absolute z-0"
 		>
 			<source src="video.mp4" type="video/mp4" />
 		</video>
-		<Hero />
+		{#if mobile}
+			<MobileHero />
+			<div>Hi</div>
+		{:else}
+			<Hero />
+		{/if}
+		
 	</SnapSection>
 
 	<SnapSection id="work">

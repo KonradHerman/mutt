@@ -5,7 +5,7 @@
 </script>
 
 <div class="wink">
-    <img width="20%" {src} on:mouseenter={() => {
+    <img width="20%" alt="logo" {src} on:mouseenter={() => {
         console.log("enter");
             src="SVG_DOGS/Asset 5.svg"
     }}
