@@ -18,6 +18,10 @@
 	// 	mobile = false
 	// }
 	let logoColor = "white"
+	let pages = ["", "work", "howl", "people", "awards", "woof"]
+	let currentPage = 1
+	let visibility = "invisible"
+	let menuHeight = 0
 	onMount (() => {
 		
 	function isInViewport(el) {
@@ -30,7 +34,7 @@
     	);
 	}
 
-const videoEl = document.querySelector('#myVideo');
+		const videoEl = document.querySelector('#myVideo');
 		// if screen is mobile sized set mobile to true
 		if (window.innerWidth < 768) {
 			mobile = true
@@ -42,11 +46,21 @@ const videoEl = document.querySelector('#myVideo');
 		setInterval(()=>{
 			if(!isInViewport(videoEl)){
 				logoColor="black"
+				visibility = "visible"
 			}
 			else{
 				logoColor="white"
+				visibility = "invisible"
 			}
 		},100)
+		window.addEventListener('scroll', function(event) {
+			if(isInViewport(documentElement.SnapSection)){
+				console.log("in")
+			}
+			else{
+				console.log("out")
+			}
+		});
 	})
 
 
@@ -62,10 +76,10 @@ const videoEl = document.querySelector('#myVideo');
 
 <div class="cont ">
 	{#if mobile}
-		<div class="z-10 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}">
+		<div class="z-30 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}" bind:offsetHeight={menuHeight}>
 		
 			<div class="flex items-center">
-				<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.31 268.31" class="h-20 w-20">
+				<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.31 268.31" class="h-20 w-20 ml-4">
 					<defs>
 						<style>
 							.cls-1 {
@@ -128,17 +142,22 @@ const videoEl = document.querySelector('#myVideo');
 					</g>
 				</svg>
 				<div class="title all-round-gothic-xlig text-[5rem] leading-4 tracking-wide md:text-9xl self-center px-4 transition ease-in duration-300">MUTT</div>
-			</div>	
+			</div>
+			<!-- hide element if in first snapsection -->
+			<!-- <div>
+				<p class="pl-2 text-5xl lg:text-8xl all-round-gothic-medium-oblique uppercase spacing transition ease-in duration-300 {visibility}">
+					{pages[currentPage]}
+				</p>
+			</div> -->
 		</div>
 	{/if}
-		
 	<SnapSection>
 		<video
 			autoplay
 			muted
 			loop
 			id="myVideo"
-			class="absolute z-0"
+			class="absolute z-10"
 		>
 			<source src="video.mp4" type="video/mp4" />
 		</video>
@@ -152,6 +171,15 @@ const videoEl = document.querySelector('#myVideo');
 
 	<SnapSection id="work">
 		{#if mobile}
+			<!-- offset from top by menu height (20 or 5rem)
+			use sticky position and set overflow of snapsection to hidden
+			OR just fuck it and make it static
+			@Kash if you can get it in the right position I can get the rest to work  -->
+			<div class="sticky mt-20 h-20 grid">
+				<p class="pl-2 text-5xl lg:text-8xl all-round-gothic-medium-oblique uppercase spacing transition ease-in duration-300 {visibility}">
+					WORK
+				</p>
+			</div>
 			<MobileWork />
 		{:else}
 			<Work />
@@ -206,6 +234,9 @@ const videoEl = document.querySelector('#myVideo');
 		background-color: #000;
 		-webkit-mask: url(logo.svg) no-repeat center;
 		mask: url(logo.svg) no-repeat center;
+	}
+	.align-logo{
+		vertical-align: top;
 	}
 
 </style>
