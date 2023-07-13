@@ -171,15 +171,6 @@
 
 	<SnapSection id="work">
 		{#if mobile}
-			<!-- offset from top by menu height (20 or 5rem)
-			use sticky position and set overflow of snapsection to hidden
-			OR just fuck it and make it static
-			@Kash if you can get it in the right position I can get the rest to work  -->
-			<div class="sticky mt-20 h-20 grid">
-				<p class="pl-2 text-5xl lg:text-8xl all-round-gothic-medium-oblique uppercase spacing transition ease-in duration-300 {visibility}">
-					WORK
-				</p>
-			</div>
 			<MobileWork />
 		{:else}
 			<Work />
