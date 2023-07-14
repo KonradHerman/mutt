@@ -11,7 +11,7 @@
       <!-- <div />
 			<div class="lg:hidden" /> -->
 
-      <div class="absolute w-full h-full grid grid-cols-6 place-items-center">
+      <div class="z-30 absolute w-full h-full grid grid-cols-6 place-items-center">
         <div class="col-span-2 h-full flex">
           <img src="logo.svg" alt="" class="h-full" />
           <div class="title all-round-gothic-xlig text-6xl md:text-8xl">
