@@ -7,7 +7,9 @@
   import Dog from "./_subpages/dog.svelte";
   import SnapSection from "./snapSection.svelte";
   import Woof from "./_subpages/woof.svelte";
+  import MobileHero from "./_subpages/mobileHero.svelte";
   import MobileWork from "./_subpages/_work/mobileWork.svelte";
+  import MobileHowl from "./_subpages/mobileHowl.svelte";
   import { onMount } from "svelte";
   // if screen is mobile sized set mobile to true
   let mobile = true;
@@ -259,7 +261,7 @@
       <source src="video.mp4" type="video/mp4" />
     </video>
     {#if mobile}
-      <!-- <MobileHero /> -->
+      <MobileHero />
     {:else}
       <Hero />
     {/if}
@@ -274,7 +276,12 @@
   </SnapSection>
 
   <SnapSection id="howl">
-    <Howl />
+    {#if condition}
+		<MobileHowl />
+	{:else}
+		<Howl />
+	{/if}
+	
   </SnapSection>
   <SnapSection id="people">
     <People />
