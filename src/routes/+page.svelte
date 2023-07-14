@@ -276,7 +276,7 @@
   </SnapSection>
 
   <SnapSection id="howl">
-    {#if condition}
+    {#if mobile}
 		<MobileHowl />
 	{:else}
 		<Howl />

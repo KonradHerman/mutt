@@ -3,10 +3,10 @@
 </script>
 
 <div class="h-full w-full overflow-scroll">
-  <div class="sticky top-20 grid align-center background-white ">
-    <p class="pl-2 text-5xl lg:text-8xl text-center all-round-gothic-medium-oblique uppercase spacing ">
+  <div class="sticky top-20 grid align-center bg-white ">
+    <div class="pl-2 text-5xl lg:text-8xl text-center all-round-gothic-medium-oblique uppercase spacing ">
       WORK
-    </p>
+    </div>
   </div>
   <div class="h-fit w-full mt-28 pb-8 grid place-items-center all-round-gothic-xlig-oblique overflow-scroll join join-vertical">
     {#each Object.entries(content) as [key, value]}
