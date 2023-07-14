@@ -24,7 +24,7 @@
 				class="absolute w-full h-full grid grid-cols-6 place-items-center"
 			>
 				<div class="col-span-2 h-full">
-					<Logo logoColor="white" />
+					<Logo logoColor="white" height="" width="w-32" />
 				</div>
 			</div>
 		</div>
