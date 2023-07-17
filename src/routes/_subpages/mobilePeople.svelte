@@ -11,13 +11,14 @@
         <div class="col-span-4">
             <img src="pics/Kiko.png" alt="" />
         </div>
-        <div class="all-round-gothic-book-oblique col-span-8">
+        <div class="content all-round-gothic-book-oblique col-span-8">
             <div class="w-full">
                 <p>Kiko</p>
                 <p>Mattoso</p>
             </div>
         </div>
-        <div class="content all-round-gothic-book-oblique col-span-12">
+        <div class="col-span-4" />
+        <div class="all-round-gothic-book-oblique col-span-8">
             <div class="w-full">
                 <p>
                     More than 20 years working in the ad world
@@ -32,13 +33,14 @@
         <div class="col-span-4">
             <img src="pics/Dave.JPG" alt="" />
         </div>
-        <div class="all-round-gothic-book-oblique col-span-8">
+        <div class="content all-round-gothic-book-oblique col-span-8">
             <div class="  w-full">
                 <p>Dave</p>
                 <p>Herman</p>
             </div>
         </div>
-        <div class="content all-round-gothic-book-oblique col-span-12">
+        <div class="col-span-4" />
+        <div class="all-round-gothic-book-oblique col-span-8">
             <div class="w-full">
                 <p>
                     Brings 25 years production experience from
