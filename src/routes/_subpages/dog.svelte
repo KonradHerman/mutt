@@ -4,8 +4,8 @@
     let src = "SVG_DOGS/Asset 4.svg"
 </script>
 
-<div class="wink">
-    <img width="20%" alt="logo" {src} on:mouseenter={() => {
+<div class="wink h-full w-full z-50 bg-white">
+    <img class="w-4/12" alt="logo" {src} on:mouseenter={() => {
         console.log("enter");
             src="SVG_DOGS/Asset 5.svg"
     }}
