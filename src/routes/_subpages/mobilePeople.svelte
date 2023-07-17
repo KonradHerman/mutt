@@ -6,4 +6,56 @@
         People
       </p>
     </div>
+    <div class="grid grid-cols-12 mt-20">
+        <!-- kiko -->
+        <div class="col-span-4">
+            <img src="pics/Kiko.png" alt="" />
+        </div>
+        <div class="all-round-gothic-book-oblique col-span-8">
+            <div class="w-full">
+                <p>Kiko</p>
+                <p>Mattoso</p>
+            </div>
+        </div>
+        <div class="content all-round-gothic-book-oblique col-span-12">
+            <div class="w-full">
+                <p>
+                    More than 20 years working in the ad world
+                    creating ideas for brands such as Tide,
+                    Mastercard, Volkswagen, GM, McDonald's,
+                    Burger King, Dial, Stella Artois and
+                    others
+                </p>
+            </div>
+        </div>
+        <!-- dave -->
+        <div class="col-span-4">
+            <img src="pics/Dave.JPG" alt="" />
+        </div>
+        <div class="all-round-gothic-book-oblique col-span-8">
+            <div class="  w-full">
+                <p>Dave</p>
+                <p>Herman</p>
+            </div>
+        </div>
+        <div class="content all-round-gothic-book-oblique col-span-12">
+            <div class="w-full">
+                <p>
+                    Brings 25 years production experience from
+									Verizon, Mastercard, MGM, BMW, NY Lottery,
+									Microsoft, Levis, Absolut and many many
+									others. He is well versed in every phase
+									of every type of production and post
+									production
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
+
+<style>
+    .content {
+		letter-spacing: 0.1em;
+		@apply text-justify text-sm lg:text-lg xl:text-xl w-full h-full flex flex-col justify-end font-bold pr-20;
+	}
+</style>
