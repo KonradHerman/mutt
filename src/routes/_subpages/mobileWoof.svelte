@@ -13,17 +13,17 @@
 					class="content grid grid-cols-1 place-items-center"
 				>
 					<div
-						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-6xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing py-12"
+						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-6xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing py-6"
 					>
 						<div class="w-full text-center">Let's make</div>
 					</div>
 					<div
-						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-6xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing py-12"
+						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-6xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing py-6"
 					>
 						<div class="w-full text-center">something</div>
 					</div>
 					<div
-						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-6xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing py-12"
+						class="w-full h-full grid grid-cols-1 place-items-center pl-6 md:pl-12 text-6xl md:text-5xl lg:text-7xl xl:text-8xl all-round-gothic-book-oblique spacing py-6"
 					>
 						<div class="w-full text-center">together.</div>
 					</div>
