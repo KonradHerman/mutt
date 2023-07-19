@@ -280,7 +280,6 @@
 			</div> -->
     </div>
     
-    {console.log(dogRect)}
   {/if}
   <SnapSection>
     <video autoplay muted loop id="myVideo" class="absolute z-10">

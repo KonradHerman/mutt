@@ -8,17 +8,17 @@
     </div>
     <div class="grid grid-cols-12 mt-20">
         <!-- kiko -->
-        <div class="col-span-4">
-            <img src="pics/Kiko.png" alt="" />
+        <div class="col-span-4 grid grid-cols-1 place-items-center">
+            <img src="pics/kiko.jpg" alt="picture"  class="rounded-full border-4 border-black h-20 w-20"/>
         </div>
-        <div class="content all-round-gothic-book-oblique col-span-8">
-            <div class="w-full">
+        <div class="content all-round-gothic-book-oblique col-span-8 mx-4">
+            <div class="w-full text-4xl">
                 <p>Kiko</p>
                 <p>Mattoso</p>
             </div>
         </div>
         <div class="col-span-4" />
-        <div class="all-round-gothic-book-oblique col-span-8">
+        <div class="all-round-gothic-book-oblique col-span-8 mx-4">
             <div class="w-full">
                 <p>
                     More than 20 years working in the ad world
@@ -30,17 +30,17 @@
             </div>
         </div>
         <!-- dave -->
-        <div class="col-span-4">
-            <img src="pics/Dave.JPG" alt="" />
+        <div class="col-span-4 grid grid-cols-1 place-items-center">
+            <img src="pics/Dave.JPG" alt=""  class="rounded-full border-4 border-black h-20 w-20"/>
         </div>
-        <div class="content all-round-gothic-book-oblique col-span-8">
-            <div class="  w-full">
+        <div class="content all-round-gothic-book-oblique col-span-8 mx-4 ">
+            <div class="text-4xl  w-full">
                 <p>Dave</p>
                 <p>Herman</p>
             </div>
         </div>
-        <div class="col-span-4" />
-        <div class="all-round-gothic-book-oblique col-span-8">
+        <div class="col-span-4 " />
+        <div class="all-round-gothic-book-oblique col-span-8 mx-4">
             <div class="w-full">
                 <p>
                     Brings 25 years production experience from

@@ -12,7 +12,15 @@
     on:mouseleave={() => {
         console.log("leave");
             src="SVG_DOGS/Asset 4.svg"
-    }}>
+    }}
+    on:click={()=>{
+        // CHANGE SRC TO ASSET 5 FOR 1 SECOND
+        src="SVG_DOGS/Asset 5.svg"
+        setTimeout(() => {
+            src="SVG_DOGS/Asset 4.svg";
+        }, 1000);
+    }}
+    >
 </div>
 
 <style lang="postcss">
