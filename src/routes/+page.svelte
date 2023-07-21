@@ -55,7 +55,7 @@
       }
     }
   onMount(() => {
-    videoEl = document.querySelector("#hero");
+    videoEl = document.querySelector("#heroText");
     // if screen is mobile sized set mobile to true
     if (window.innerWidth < 768) {
       mobile = true;
