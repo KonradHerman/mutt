@@ -40,8 +40,8 @@
 					class="motto all-round-gothic text-center md:text-left text-4xl sm:text-5xl md:text-5xl xl:text-6xl"
 				>
 					<div class="grid-query h-full">
-						<p class="p-8 pl-0">a production</p>
-						<p class="p-8 pl-0">& ad agency</p>
+						<p class="p-8 pl-0">ad agency</p>
+						<p class="p-8 pl-0">& a production</p>
 						<p class="p-8 pl-0 pb-0">mongrel</p>
 					</div>
 				</div>
