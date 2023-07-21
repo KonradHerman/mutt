@@ -30,8 +30,8 @@
   let dogX = 0;
   let dogY = 0;
   let dogRect =0;
-  onMount(() => {
-    function isInViewport(el) {
+  let videoEl;
+  function isInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
         rect.top >= 0 &&
@@ -42,30 +42,51 @@
           (window.innerWidth || document.documentElement.clientWidth)
       );
     }
-
-    const videoEl = document.querySelector("#myVideo");
+  function handleScroll() {
+      if (!isInViewport(videoEl)) {
+          logoColor = "black";
+          visibility = "visible";
+      } else {
+          logoColor = "white";
+          visibility = "invisible";
+      }
+    }
+  onMount(() => {
+    videoEl = document.querySelector("#hero");
     // if screen is mobile sized set mobile to true
     if (window.innerWidth < 768) {
       mobile = true;
     } else {
       mobile = false;
     }
-    setInterval(() => {
-      if (!isInViewport(videoEl)) {
-        logoColor = "black";
-        visibility = "visible";
-      } else {
+    // on scroll check if element is visible
+    window.addEventListener("scroll", function (event) {
+      console.log("scroollingh");
+      if (isInViewport(videoEl)) {
         logoColor = "white";
         visibility = "invisible";
-      }
-    }, 100);
-    window.addEventListener("scroll", function (event) {
-      if (isInViewport(documentElement.SnapSection)) {
-        console.log("in");
       } else {
-        console.log("out");
+        logoColor = "black";
+        visibility = "visible";
       }
     });
+    this.$on
+    // setInterval(() => {
+    //   if (!isInViewport(videoEl)) {
+    //     logoColor = "black";
+    //     visibility = "visible";
+    //   } else {
+    //     logoColor = "white";
+    //     visibility = "invisible";
+    //   }
+    // }, 100);
+    // window.addEventListener("scroll", function (event) {
+    //   if (isInViewport(documentElement.SnapSection)) {
+    //     console.log("in");
+    //   } else {
+    //     console.log("out");
+    //   }
+    // });
   });
   console.log(dogRect);
   console.log(dogX);
@@ -77,7 +98,7 @@
   <meta name="description" content="MUTT" />
 </svelte:head>
 
-<div class="cont">
+<div class="cont" on:scroll={handleScroll}>
   {#if mobile}
     <div
       class="z-30 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}"
@@ -282,7 +303,7 @@
     </div>
     
   {/if}
-  <SnapSection>
+  <SnapSection id="hero">
     <video autoplay muted loop id="myVideo" class="absolute z-10">
       <source src="video.mp4" type="video/mp4" />
     </video>
