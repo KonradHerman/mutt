@@ -14,6 +14,7 @@
   import MobileAwards from "./_subpages/mobileAwards.svelte";
   import MobileWoof from "./_subpages/mobileWoof.svelte";
   import { onMount } from "svelte";
+  import Logo from "./_subpages/logo.svelte";
   // if screen is mobile sized set mobile to true
   let mobile = true;
   // if (window.innerWidth < 768) {
@@ -68,7 +69,7 @@
   });
   console.log(dogRect);
   console.log(dogX);
-
+  console.log(logoColor);
 </script>
 
 <svelte:head>
@@ -81,7 +82,7 @@
       class="z-30 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}"
       bind:offsetHeight={menuHeight}
     >
-      <div class="flex items-center">
+      <div class="flex items-center {logoColor}">
         <div bind:contentRect={dogRect}
         bind:offsetWidth={dogX}>
           <svg
@@ -89,7 +90,7 @@
             data-name="Layer 2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 268.31 268.31"
-            class="h-20 w-20 ml-4"
+            class="h-20 w-20 ml-4 {logoColor}"
           >
             <defs>
               <style>
