@@ -43,10 +43,13 @@
       );
     }
   function handleScroll() {
+      console.log("scrolllinmg")
       if (!isInViewport(videoEl)) {
           logoColor = "black";
           visibility = "visible";
+          console.log("istsblakckkkkkkkkkkk");
       } else {
+          console.log("iswhiteeeeeeeee")
           logoColor = "white";
           visibility = "invisible";
       }
@@ -60,17 +63,16 @@
       mobile = false;
     }
     // on scroll check if element is visible
-    window.addEventListener("scroll", function (event) {
-      console.log("scroollingh");
-      if (isInViewport(videoEl)) {
-        logoColor = "white";
-        visibility = "invisible";
-      } else {
-        logoColor = "black";
-        visibility = "visible";
-      }
-    });
-    this.$on
+    // window.addEventListener("scroll", function (event) {
+    //   console.log("scroollingh");
+    //   if (isInViewport(videoEl)) {
+    //     logoColor = "white";
+    //     visibility = "invisible";
+    //   } else {
+    //     logoColor = "black";
+    //     visibility = "visible";
+    //   }
+    // });
     // setInterval(() => {
     //   if (!isInViewport(videoEl)) {
     //     logoColor = "black";
@@ -104,7 +106,7 @@
       class="z-30 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}"
       bind:offsetHeight={menuHeight}
     >
-      <div class="flex items-center {logoColor}">
+      <div class="flex items-center">
         <div bind:contentRect={dogRect}
         bind:offsetWidth={dogX}>
           <svg
@@ -112,7 +114,7 @@
             data-name="Layer 2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 268.31 268.31"
-            class="h-20 w-20 ml-4 {logoColor}"
+            class="h-20 w-20 ml-4"
           >
             <defs>
               <style>
