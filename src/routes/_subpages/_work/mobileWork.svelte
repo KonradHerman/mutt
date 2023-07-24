@@ -53,7 +53,10 @@
               />
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
-            <p>{value.text}</p>
+            <p>{@html value.text}</p>
+            <p class="font-extrabold all-round-gothic-xlig">
+              {value.end}
+            </p>
           </div>
         {/if}
       </div>

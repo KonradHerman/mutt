@@ -306,7 +306,7 @@
     
   {/if}
   <SnapSection id="hero">
-    <video autoplay muted loop id="myVideo" class="absolute z-10">
+    <video autoplay muted loop playsinline id="myVideo" class="absolute z-10">
       <source src="video.mp4" type="video/mp4" />
     </video>
     {#if mobile}

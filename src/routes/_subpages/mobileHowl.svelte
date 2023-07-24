@@ -38,15 +38,10 @@
     {#if visible}
       <div>
         <p>
-          <span in:fade={{ duration: 1000 }}>The most</span>
-          <span in:fade={{ duration: 500, delay: 1000 }}>pressed</span>
-          <span in:fade={{ duration: 500, delay: 1500 }}>button</span>
-          <span in:fade={{ duration: 500, delay: 2000 }}>in the</span>
-          <span in:fade={{ duration: 500, delay: 2500 }}>world is</span>
-          <span in:fade={{ duration: 500, delay: 3000 }}>"skip ad"</span>
+          The most pressed button in the world is "skip ad"
         </p>
       </div>
-      <div in:fade={{ delay: 3300 }} class="text-sm text-justify pt-2">
+      <div class="text-sm text-justify pt-2">
         <p>
           Most of the time they deserve to be skipped. Because they’re bad,
           boring, they’re just…average. Average is a joy killer. Average is a
@@ -63,7 +58,7 @@
         </p>
         <div
           class="howling font-extrabold all-round-gothic-book-oblique-bold text-lg text-left"
-          id="howling" in:fade={{ delay: 4000 }}
+          id="howling"
         >
           And occasionally howling
       </div>
