@@ -38,14 +38,15 @@
               showMinimizeButton = false;
             }}
           >
-            <iframe
-              src={activeContent.video}
-              frameborder="0"
-              allow="autoplay; picture-in-picture"
-              allowfullscreen
-              class="w-full p-0 m-0 h-full"
-              in:fade={{ duration: 700 }}
-            />
+			
+				<iframe
+				  src={"https://player.vimeo.com/video/" + value.video + "?h=70d246fdb6&autoplay=1&title=0&byline=0&portrait=0"}
+				  style="position:absolute;top:0;left:0;width:100%;height:100%;"
+				  frameborder="0"
+				  allow="autoplay; fullscreen; picture-in-picture"
+				  allowfullscreen
+				/>
+			  <script src="https://player.vimeo.com/api/player.js"></script>
             {#if showMinimizeButton}
               <div class="absolute inset-0 grid grid-cols-1 place-items-center">
                 <div
@@ -98,40 +99,25 @@
             }}
           >
             {#if !maximized}
-              <div style="padding:56.25% 0 0 0;position:relative;">
+              <div class="w-full h-full">
                 <iframe
                   src={"https://player.vimeo.com/video/" +
-                    value.video +
+                    activeContent.video +
                     "?h=70d246fdb6&title=0&byline=0&portrait=0"}
-                  style="position:absolute;top:0;left:0;width:100%;height:100%;"
                   frameborder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
+                  class="w-full p-0 m-0 h-full"
                   allowfullscreen
                 />
               </div>
               <script src="https://player.vimeo.com/api/player.js"></script>
-            {/if}
-            {#if showMaximizeButton}
-              <div class="absolute inset-0 grid grid-cols-1 place-items-center">
-                <div
-                  class="maximize text-center rounded-full border-4 hover:shadow-2xl hover:shadow-white cursor-pointer transition-all duration-500 ease-in-out"
-                  transition:fade={{ duration: 700 }}
-                >
-                  <img
-                    src="maximize.png"
-                    alt=""
-                    class="h-12 p-2"
-                    on:click={maximize}
-                  />
-                </div>
-              </div>
             {/if}
           </div>
 
           <div class="w-full h-2/3 xl:h-1/2">
             <p
               in:fade={{ duration: 700 }}
-              class="text-justify p-1 md:p-4 pb-0 pl-0 mb-0 max-h-44 all-round-gothic-book-oblique weight work-content"
+              class="text-justify p-1 md:p-4 pb-0 pl-0 mb-0  h-full all-round-gothic-book-oblique weight work-content text-9xl" 
             >
               {@html activeContent.text}
               <br />
@@ -258,26 +244,26 @@
     font-weight: 100;
   }
   .work-content {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   @media (max-width: 1300px) {
     .work-content {
-      font-size: 0.7rem;
+      font-size: 1rem;
     }
   }
   @media (max-width: 1024px) {
     .work-content {
-      font-size: 0.65rem;
+      font-size: 0.8rem;
     }
   }
   @media (max-width: 800px) {
     .work-content {
-      font-size: 0.6rem;
+      font-size: 0.7rem;
     }
   }
   @media (max-width: 680px) {
     .work-content {
-      font-size: 0.55rem;
+      font-size: 0.65rem;
     }
   }
   @media (max-width: 600px) {
