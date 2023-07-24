@@ -14,14 +14,8 @@
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
-  let visible = false;
-  onMount(() => {
-    setInterval(() => {
-      if (isInViewport(document.querySelector("#mobile-howl"))) {
-        visible = true;
-      }
-    }, 50);
-  });
+  let visible = true;
+
 </script>
 
 <div class="h-full w-full" id="mobile-howl">

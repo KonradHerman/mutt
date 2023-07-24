@@ -20,7 +20,7 @@
     </div>
   </div>
   <div
-    class="h-fit w-full mt-28 pb-8 grid place-items-center all-round-gothic-xlig-oblique overflow-scroll join join-vertical"
+    class="h-fit w-full mt-28 pb-24 grid place-items-center all-round-gothic-xlig-oblique overflow-scroll join join-vertical"
   >
     {#each Object.entries(content) as [key, value]}
       <div class="collapse collapse-plus join-item">
