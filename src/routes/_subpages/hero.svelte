@@ -5,21 +5,16 @@
 <div
 	class="two flex flex-col relative text-white w-full h-full z-50"
 >
-	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
+	<div class="grid grid-rows-10 h-full w-full gap-0 mt-4">
 		<div
-			class="row-span-1 grid grid-cols-6 place-items-center p-0 m-0 relative"
+			class="row-span-1 grid grid-cols-12 place-items-center p-0 m-0 relative"
 		>
 			<div />
-			<div />
-			<div class="title all-round-gothic-xlig z-50 ml-40">
-				MUTT
+			<div class="col-span-2 h-full">
+				<img src="logo-white.png" alt="" class="h-full" />
 			</div>
-			<div
-				class="absolute w-full h-full grid grid-cols-6 place-items-center"
-			>
-				<div class="col-span-2 h-full">
-					<img src="logo-white.png" alt="" class="h-full" />
-				</div>
+			<div class=" w-full col-span-4 title all-round-gothic-xlig z-50 text-left">
+				MUTT
 			</div>
 		</div>
 		<div class="center">
