@@ -25,14 +25,14 @@
       <div class="absolute text-9xl w-full h-full grid grid-cols-5">
         <Sidebar color="black" />
         <div class="col-span-2 grid grid-cols-1 place-items-center pb-20">
-          <div class="w-32">
+          <div class="w-20 lg:w-22 xl:w-28">
             <img
               src="pics/kiko.jpg"
               alt="kiko"
               class="rounded-full border-4 border-black "
             />
           </div>
-          <div class="w-32">
+          <div class="w-20 lg:w-22 xl:w-28">
             <img
               src="pics/Dave.JPG"
               alt="dave"
@@ -64,7 +64,7 @@
         <div class="content all-round-gothic-book-oblique">
           <div class=" w-full h-full grid grid-rows-2 pr-4">
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
-              <div class="  w-full pl-12 md:pl-6">
+              <div class="  w-full pl-12">
                 <p>
                   More than 20 years working in the ad world creating ideas for
                   brands such as Tide, Mastercard, Volkswagen, GM, McDonald's,
@@ -73,7 +73,7 @@
               </div>
             </div>
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
-              <div class="  w-full pl-12 md:pl-6">
+              <div class="  w-full pl-12">
                 <p>
                   Brings 25 years production experience from Verizon,
                   Mastercard, MGM, BMW, NY Lottery, Microsoft, Levis, Absolut
