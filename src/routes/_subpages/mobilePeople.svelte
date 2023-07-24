@@ -9,7 +9,7 @@
     <div class="grid grid-cols-12 mt-20">
         <!-- kiko -->
         <div class="col-span-4 grid grid-cols-1 place-items-center">
-            <img src="pics/kiko.jpg" alt="picture"  class="rounded-full border-4 border-black h-20 w-20"/>
+            <img src="pics/kiko.jpg" alt="kiko"  class="rounded-full border-4 border-black h-20 w-20"/>
         </div>
         <div class="content all-round-gothic-book-oblique col-span-8 mx-4">
             <div class="w-full text-4xl">
@@ -31,7 +31,7 @@
         </div>
         <!-- dave -->
         <div class="col-span-4 grid grid-cols-1 place-items-center">
-            <img src="pics/Dave.JPG" alt=""  class="rounded-full border-4 border-black h-20 w-20"/>
+            <img src="pics/Dave.JPG" alt="dave"  class="rounded-full border-4 border-black h-20 w-20"/>
         </div>
         <div class="content all-round-gothic-book-oblique col-span-8 mx-4 ">
             <div class="text-4xl  w-full">
