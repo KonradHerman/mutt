@@ -73,7 +73,7 @@
         <div
           class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
         >
-          <img src="logo-black.svg" class="h-10 lg:h-20 pr-4" alt="" />
+          <img src="logo-black.svg" class="h-10 lg:h-24 pr-4" alt="" />
           MUTT
           <p
             class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
@@ -121,6 +121,7 @@
             >
               {@html activeContent.text}
               <br />
+			  <br />
               <span class="font-extrabold all-round-gothic-xlig">
                 {activeContent.end}
               </span>

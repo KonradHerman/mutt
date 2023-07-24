@@ -16,7 +16,7 @@
 				>
 					<img
 						src="logo-black.svg"
-						class="h-10 lg:h-20 pr-4"
+						class="h-10 lg:h-24 pr-4"
 						alt=""
 					/>
 					MUTT
