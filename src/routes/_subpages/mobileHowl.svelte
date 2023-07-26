@@ -26,7 +26,7 @@
     </p>
   </div>
   <div
-    class="h-fit w-full mt-24 pb-8 grid place-items-center all-round-gothic-medium-oblique overflow-scroll join join-vertical px-4 text-sm"
+    class="h-fit w-full mt-24 pb-8 grid place-items-center all-round-gothic-medium-oblique overflow-scroll join join-vertical px-4 text-sm leading-tight"
   >
     <div>
       <p>The most pressed button in the world is "skip ad."<br /><br />
