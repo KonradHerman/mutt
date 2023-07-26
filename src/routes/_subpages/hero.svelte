@@ -6,7 +6,7 @@
   <div class="grid grid-rows-10 h-full w-full gap-0 mt-4">
 	<!-- logo div -->
     <div
-      class="h-fit row-span-1 grid grid-cols-12 place-items-center p-0 m-0 relative outline-dashed"
+      class="h-fit row-span-1 grid grid-cols-12 place-items-center p-0 m-0 relative"
     >
       <div />
       <div class="col-span-2 h-fit">
@@ -16,7 +16,7 @@
         MUTT
       </div>
     </div>
-    <div class="center outline-dashed">
+    <div class="center">
       <Sidebar />
       <div class=" w-full h-full border-l-4 border-b-4 border-white z-50" />
       <div
