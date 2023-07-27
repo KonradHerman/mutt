@@ -25,14 +25,14 @@
       <div class="absolute text-9xl w-full h-full grid grid-cols-5">
         <Sidebar color="black" />
         <div class="col-span-2 grid grid-cols-1 place-items-center pb-20">
-          <div class="w-20 lg:w-22 xl:w-28">
+          <div class="w-20">
             <img
               src="pics/kiko.jpg"
               alt="kiko"
               class="rounded-full border-4 border-black "
             />
           </div>
-          <div class="w-20 lg:w-22 xl:w-28">
+          <div class="w-20">
             <img
               src="pics/Dave.JPG"
               alt="dave"
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div
-        class=" w-full h-full grid grid-rows-2 text-xl md:text-4xl lg:text-5xl text-right pr-4 all-round-gothic-book-oblique"
+        class=" w-full h-full grid grid-rows-2 text-xl md:text-4xl lg:text-5xl text-right pr-4 open-sans"
       >
         <div class="w-full h-full grid grid-cols-1 place-items-end pb-2">
           <div class="  w-full">
@@ -61,7 +61,7 @@
       <div
         class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
       >
-        <div class="content all-round-gothic-book-oblique">
+        <div class="content open-sans">
           <div class=" w-full h-full grid grid-rows-2 pr-4">
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
               <div class="  w-full pl-12">

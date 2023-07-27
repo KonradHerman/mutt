@@ -31,6 +31,10 @@
 	font-family: AllRoundGothicBookOblique;
 	src: url(/fonts/AllRoundGothic-BookOblique.ttf) ;
 }
+@font-face {
+	font-family: OpenSans;
+	src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
 .all-round-gothic-xlig {
 	font-family: Xlig;
 }
@@ -55,6 +59,9 @@
 }
 .all-round-gothic-demi-oblique {
 	font-family: AllRoundGothicDemiOblique;
+}
+.open-sans {
+	font-family: OpenSans;
 }
 *{
 	margin:0;

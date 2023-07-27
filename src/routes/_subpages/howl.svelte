@@ -31,7 +31,7 @@
 		<div class="center">
 			<Sidebar color="black" />
 			<div
-				class=" w-full h-full grid grid-cols-1 place-items-center sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl text-right all-round-gothic-book-oblique weight"
+				class=" w-full h-full grid grid-cols-1 place-items-center sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl text-right open-sans weight"
 			>
 				<div>The most</div>
 				<div>pressed</div>
@@ -48,7 +48,7 @@
 			>
 				<div class="content">
 					<div
-						class="grid grid-cols-1 place-content-evenly h-full pb-0 pl-6 all-round-gothic-book-oblique"
+						class="grid grid-cols-1 place-content-evenly h-full pb-0 pl-6 open-sans"
 					>
 						<p>
 							Most of the time they deserve to be skipped.
@@ -77,7 +77,7 @@
 						calls and longer relationships. <br /> We want
 						everyone involved to be happy. <br /><br />
 						<p
-							class="howling font-extrabold all-round-gothic-book-oblique-bold"
+							class="howling font-extrabold open-sans"
 							id="howling"
 						>
 							And occasionally howling.

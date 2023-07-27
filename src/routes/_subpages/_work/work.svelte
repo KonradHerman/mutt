@@ -105,7 +105,7 @@
                     activeContent.video +
                     "?h=70d246fdb6&title=0&byline=0&portrait=0"}
                   frameborder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
+                  allow="autoplay; fullscreen"
                   class="w-full p-0 m-0 h-full"
                   allowfullscreen
                 />
@@ -117,7 +117,7 @@
           <div class="w-full h-2/3 xl:h-1/2">
             <p
               in:fade={{ duration: 700 }}
-              class="text-justify p-1 md:p-4 pb-0 pl-0 mb-0  h-full all-round-gothic-book-oblique weight work-content text-9xl" 
+              class=" text-left p-1 pb-0 pl-0 mb-0  h-full open-sans weight work-content text-9xl" 
             >
               {@html activeContent.text}
               <br />
@@ -139,7 +139,7 @@
       >
         <div class="motto">
           <div
-            class="grid grid-cols-1 place-items-left h-full pb-6 all-round-gothic-xlig-oblique"
+            class="grid grid-cols-1 place-items-left h-full pb-6 open-sans"
           >
             <a class="content-link" on:mouseenter={activate("tide")}>TIDE</a>
             <a class="content-link" on:mouseenter={activate("got2be")}>Göt2b</a>

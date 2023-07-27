@@ -17,7 +17,7 @@
   let visible = true;
 </script>
 
-<div class="h-full w-full" id="mobile-howl">
+<div class="h-full w-full overflow-scroll" id="mobile-howl">
   <div class="sticky top-20 grid align-center background-white">
     <p
       class="pl-2 text-5xl lg:text-8xl text-center all-round-gothic-medium-oblique uppercase spacing"
@@ -26,10 +26,10 @@
     </p>
   </div>
   <div
-    class="h-fit w-full mt-24 pb-8 grid place-items-center all-round-gothic-medium-oblique overflow-scroll join join-vertical px-4 text-sm leading-tight"
+    class="h-fit w-full mt-24 pb-8 grid place-items-center all-round-gothic-medium-oblique overflow-scroll join join-vertical px-4 text-normal leading-tight"
   >
     <div>
-      <p>The most pressed button in the world is "skip ad."<br /><br />
+      <p><span class="text-3xl">The most pressed button in the world is "skip ad."</span><br /><br />
         Most of the time they deserve to be skipped. Because they're bad,
         boring, they're just…average.<br /><br />
         Average is a joy killer. Average is a

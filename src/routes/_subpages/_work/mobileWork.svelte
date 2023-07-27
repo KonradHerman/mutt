@@ -53,7 +53,7 @@
               />
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
-            <p>{@html value.text}</p>
+            <p class="all-round-gothic-medium-oblique">{@html value.text}</p>
             <p class="font-extrabold all-round-gothic-xlig">
               {value.end}
             </p>
