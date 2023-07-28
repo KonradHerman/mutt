@@ -12,7 +12,7 @@
 </script>
 
 <div
-	class="  w-full h-full text-right pr-2 md:pr-10 pt-20 flex flex-col gap-10 items-end text-sm md:text-lg text-{color} {color} all-round-gothic"
+	class=" w-full h-full text-right pr-2 md:pr-10 flex flex-col gap-10 items-end text-sm md:text-lg text-{color} {color} all-round-gothic"
 >
 	<a href="#work" on:click|preventDefault={scrollIntoView}
 		>Work</a

@@ -23,11 +23,9 @@
         class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
       >
         <div class="motto all-round-gothic">
-          <div>
-            <p class="p-8 pl-0">an ad agency</p>
-            <p class="p-8 pl-0">& production</p>
-            <p class="p-8 pl-0 pb-0">mongrel</p>
-          </div>
+            <p class="p-2 py-4 xl:p-8 pl-0">an ad agency</p>
+            <p class="p-2 py-4 xl:p-8 pl-0">& production</p>
+            <p class="p-2 py-4 xl:p-8 pl-0 pb-0">mongrel</p>
         </div>
       </div>
       <div class=" w-full h-full border-b-4 border-white z-50" />
@@ -35,7 +33,7 @@
       <div class=" w-full h-full" />
       <div class=" w-full h-full" />
     </div>
-    <div class="row-span-3 grid grid-cols-6 place-items-center w-full mb-20">
+    <div class="row-span-3 grid grid-cols-6 place-items-center w-full h-2/3 mb-10">
       <div class=" w-full h-full" />
       <div class=" w-full h-full" />
       <div class="  w-full h-full border-r-4 border-white relative">
@@ -54,7 +52,7 @@
   }
   .motto {
     letter-spacing: 0.3em;
-    @apply text-left text-8xl w-full h-full flex flex-col justify-end font-bold;
+    @apply text-left text-6xl xl:text-8xl w-full h-full flex flex-col justify-end font-bold;
   }
   .overlay {
     width: 80%;
@@ -70,6 +68,13 @@
     bottom: 5px;
     translate: 50%;
     position: absolute;
+  }
+  @media (max-width: 1024px) {
+    .arrow {
+      width: 25px;
+      height: 25px;
+			bottom: 3px;
+    }
   }
   .title {
     font-size: 11rem;

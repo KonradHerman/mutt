@@ -169,6 +169,7 @@
 		.arrow {
 			width: 25px;
 			height: 25px;
+			bottom: 3px;
 		}
 	}
 </style>
