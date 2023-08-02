@@ -122,7 +122,7 @@
               {@html activeContent.text}
               <br />
 			  <br />
-              <span class="font-extrabold all-round-gothic-xlig">
+              <span class="font-extrabold open-sans">
                 {activeContent.end}
               </span>
             </p>

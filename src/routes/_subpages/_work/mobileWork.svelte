@@ -20,7 +20,7 @@
     </div>
   </div>
   <div
-    class="h-fit w-full mt-28 pb-24 grid place-items-center all-round-gothic-xlig-oblique overflow-scroll join join-vertical"
+    class="h-fit w-full mt-28 pb-24 grid place-items-center open-sans overflow-scroll join join-vertical"
   >
     {#each Object.entries(content) as [key, value]}
       <div class="collapse collapse-plus join-item">
@@ -53,8 +53,8 @@
               />
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
-            <p class="all-round-gothic-medium-oblique">{@html value.text}</p>
-            <p class="font-extrabold all-round-gothic-xlig">
+            <p class="open-sans">{@html value.text}</p>
+            <p class="font-extrabold open-sans">
               {value.end}
             </p>
           </div>

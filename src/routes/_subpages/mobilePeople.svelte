@@ -1,4 +1,4 @@
-<div class="h-full w-full" id="mobile-people">
+<div class="h-full w-full overflow-scroll" id="mobile-people">
     <div class="sticky top-20 grid align-center background-white">
       <p
         class="pl-11 text-5xl lg:text-8xl text-center all-round-gothic-medium-oblique uppercase spacing"
@@ -11,14 +11,14 @@
         <div class="col-span-4 grid grid-cols-1 place-items-center">
             <img src="pics/kiko.jpg" alt="kiko"  class="rounded-full border-4 border-black h-20 w-20"/>
         </div>
-        <div class="content all-round-gothic-book-oblique col-span-8 mx-4">
+        <div class="content open-sans col-span-8 mx-4">
             <div class="w-full text-4xl">
                 <p>Kiko</p>
                 <p>Mattoso</p>
             </div>
         </div>
         <div class="col-span-4" />
-        <div class="all-round-gothic-book-oblique col-span-8 mx-4">
+        <div class="open-sans col-span-8 mx-4">
             <div class="w-full">
                 <p>
                     More than 20 years working in the ad world
@@ -33,14 +33,14 @@
         <div class="col-span-4 grid grid-cols-1 place-items-center">
             <img src="pics/Dave.JPG" alt="dave"  class="rounded-full border-4 border-black h-20 w-20"/>
         </div>
-        <div class="content all-round-gothic-book-oblique col-span-8 mx-4 ">
+        <div class="content open-sans col-span-8 mx-4 ">
             <div class="text-4xl  w-full">
                 <p>Dave</p>
                 <p>Herman</p>
             </div>
         </div>
         <div class="col-span-4 " />
-        <div class="all-round-gothic-book-oblique col-span-8 mx-4">
+        <div class="open-sans col-span-8 mx-4">
             <div class="w-full">
                 <p>
                     Brings 25 years production experience from

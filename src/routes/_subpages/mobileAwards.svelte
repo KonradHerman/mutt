@@ -11,7 +11,7 @@
 			>
 				<div class="content mx-2">
 					<div
-						class="grid grid-rows-9 place-items-center h-full w-full pb-6 pl-6 all-round-gothic-book-oblique text-xl pr-6 text-justify"
+						class="grid grid-rows-9 place-items-center h-full w-full pb-6 pl-6 open-sans text-xl pr-6 text-justify"
 					>
 						<div class="min-w-full">
 							Kiko & Dave have won all major awards in the industry,
