@@ -26,21 +26,22 @@
     </p>
   </div>
   <div
-    class="h-fit w-full mt-24 pb-8 grid place-items-center open-sans overflow-scroll join join-vertical px-4 text-normal leading-tight"
+    class=" h-full w-full mt-24 pb-8 grid place-items-center open-sans overflow-scroll join join-vertical px-4 text-normal leading-tight"
   >
     <div>
       <p><span class="text-3xl">The most pressed button in the world is "skip ad."</span><br /><br />
         Most of the time they deserve to be skipped. Because they're bad,
         boring, they're just…average.<br /><br />
-        Average is a joy killer. Average is a
-        waste of everyone's time.<br /><br />
+        Average is a joy killer.<br />
+        Average is a waste of everyone's time.<br /><br />
         We're here with a purpose. To give ideas that
         matter, the ones that people love and engage, a bigger chance to exist.<br /><br />
-        That's why we're not only an ad agency, we're a production house too.<br /><br />
-        We're small, faster and more efficient. <br /><br />
-        We're project driven. And we hire accordingly. <br />
+        That's why we're not only an ad agency, we're a production house too.
+        We're small, faster and more efficient. <br />
+        We're project driven.<br />
+        And we hire accordingly. <br /><br />
         We're here to unleash the kind of work people cannot ignore.
-        We're here for the joy of doing what we love. <br /><br />
+        We're here for the joy of doing what we love. <br />
         We're here for shorter calls and longer relationships.
         We want everyone involved to be happy. <br /><br />
         And occasionally howling

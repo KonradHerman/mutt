@@ -101,7 +101,7 @@
 <div class="cont" on:scroll={handleScroll}>
   {#if mobile}
     <div
-      class="z-30 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}"
+      class="z-40 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}"
       bind:offsetHeight={menuHeight}
     >
       <div class="flex items-center">
