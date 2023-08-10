@@ -96,6 +96,7 @@
 <svelte:head>
   <title>MUTT</title>
   <meta name="description" content="MUTT" />
+  <link rel="icon" type="png" href="favicon.png">
 </svelte:head>
 
 <div class="cont" on:scroll={handleScroll}>
