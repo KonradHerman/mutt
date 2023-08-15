@@ -9,11 +9,7 @@
   <div class="grid grid-cols-12 mt-20">
     <!-- kiko -->
     <div class="col-span-4 grid grid-cols-1 place-items-center">
-      <img
-        src="pics/1.svg"
-        alt="kiko"
-        class="rounded-full h-20 w-20"
-      />
+      <img src="pics/1.svg" alt="kiko" class="rounded-full h-20 w-20" />
     </div>
     <div class="content open-sans col-span-8 mx-4">
       <div class="w-full text-4xl">
@@ -25,10 +21,10 @@
     <div class="open-sans col-span-8 mx-4">
       <div class="w-full">
         <p>
-          We're award winning creative directors with more than 20 years of
+          We’re award winning creative directors with more than 20 years of
           working in the ad world creating ideas for brands such as Tide,
-          Verizon, MGM,Mastercard, NY Lottery, Levis,Absolut, Mcdonald's, Burger
-          King, Dial, Stella Artois, Volkswagen, GM, and others.
+          Verizon, MGM, Mastercard, NY Lottery, Levis, Absolut, Mcdonald’s,
+          Burger King, Dial,Stella Artois, Volkswagen, GM, & others.
         </p>
       </div>
     </div>
@@ -50,9 +46,9 @@
     <div class="open-sans col-span-8 mx-4">
       <div class="w-full">
         <p>
-          We're even more years in production & post production From tv spots
-          and social & longform content, to print & experiential, games &
-          virtual realities, we've barked up all the trees.
+          We’re even more years working in production & post production. From tv
+          spots & social & longform content, to print & experiential, games &
+          virtual realities, we’ve barked up all the trees.
         </p>
       </div>
     </div>

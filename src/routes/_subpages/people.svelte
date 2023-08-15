@@ -66,20 +66,29 @@
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
               <div class="  w-full pl-12">
                 <p>
-                  We're award winning creative directors with more than 20 years
-                  of working in the ad world creating ideas for brands such as
-                  Tide, Verizon, MGM,Mastercard, NY Lottery, Levis,Absolut,
-                  Mcdonald's, Burger King, Dial, Stella Artois, Volkswagen, GM,
-                  and others.
+                  We’re award winning creative
+                  directors with more
+                  than 20 years of working in
+                  the ad world creating ideas
+                  for brands such as Tide, Verizon,
+                  MGM, Mastercard, NY Lottery,
+                  Levis, Absolut, Mcdonald’s,
+                  Burger King, Dial,Stella Artois,
+                  Volkswagen, GM, & others. 
+
                 </p>
               </div>
             </div>
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
               <div class="  w-full pl-12">
                 <p>
-                  We're even more years in production & post production From tv
-                  spots and social & longform content, to print & experiential,
-                  games & virtual realities, we've barked up all the trees.
+                  We’re even more years working
+                  in production & post production.
+                  From tv spots &
+                  social & longform content,
+                  to print & experiential,
+                  games & virtual realities,
+                  we’ve barked up all the trees.
                 </p>
               </div>
             </div>
