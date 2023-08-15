@@ -14,7 +14,7 @@
 						class="grid grid-rows-9 place-items-center h-full w-full pb-6 pl-6 open-sans text-xl pr-6 text-justify"
 					>
 						<div class="min-w-full">
-							Kiko & Dave have won all major awards in the industry,
+							Mutts have won all major awards in the industry,
 							such as the Film Grand Prix at Cannes Lions, the D&AD Black Pencil the Grand Clio among many others
 						</div>
 					</div>

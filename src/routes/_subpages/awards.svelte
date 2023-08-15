@@ -85,7 +85,7 @@
 						class="grid grid-rows-9 place-items-center h-full w-full text-left pb-6 pl-6 open-sans text-2xl"
 					>
 						<div class="min-w-full">
-							Kiko & Dave have won all major
+							Mutts have won all major
 						</div>
 						<div class="min-w-full">
 							awards in the industry,

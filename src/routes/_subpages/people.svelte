@@ -27,16 +27,16 @@
         <div class="col-span-2 grid grid-cols-1 place-items-center pb-20">
           <div class="w-20">
             <img
-              src="pics/kiko.jpg"
+              src="pics/1.svg"
               alt="kiko"
-              class="rounded-full border-4 border-black "
+              class="rounded-full"
             />
           </div>
           <div class="w-20">
             <img
-              src="pics/Dave.JPG"
+              src="pics/2.svg"
               alt="dave"
-              class="rounded-full border-4 border-black"
+              class="rounded-full border-2 border-black"
             />
           </div>
         </div>
@@ -46,14 +46,14 @@
       >
         <div class="w-full h-full grid grid-cols-1 place-items-end pb-2">
           <div class="  w-full">
-            <p>Kiko</p>
-            <p>Mattoso</p>
+            <p>Mutt</p>
+            <p>Creative</p>
           </div>
         </div>
         <div class="w-full h-full grid grid-cols-1 place-items-end pb-2">
           <div class="  w-full">
-            <p>Dave</p>
-            <p>Herman</p>
+            <p>Mutt</p>
+            <p>Production</p>
           </div>
         </div>
       </div>
@@ -66,19 +66,20 @@
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
               <div class="  w-full pl-12">
                 <p>
-                  More than 20 years working in the ad world creating ideas for
-                  brands such as Tide, Mastercard, Volkswagen, GM, McDonald's,
-                  Burger King, Dial, Stella Artois and others
+                  We're award winning creative directors with more than 20 years
+                  of working in the ad world creating ideas for brands such as
+                  Tide, Verizon, MGM,Mastercard, NY Lottery, Levis,Absolut,
+                  Mcdonald's, Burger King, Dial, Stella Artois, Volkswagen, GM,
+                  and others.
                 </p>
               </div>
             </div>
             <div class="w-full h-full grid grid-cols-1 place-items-end pb-6">
               <div class="  w-full pl-12">
                 <p>
-                  Brings 25 years production experience from Verizon,
-                  Mastercard, MGM, BMW, NY Lottery, Microsoft, Levis, Absolut
-                  and many many others. He is well versed in every phase of
-                  every type of production and post production
+                  We're even more years in production & post production From tv
+                  spots and social & longform content, to print & experiential,
+                  games & virtual realities, we've barked up all the trees.
                 </p>
               </div>
             </div>
