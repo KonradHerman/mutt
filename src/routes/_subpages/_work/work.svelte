@@ -141,23 +141,11 @@
           <div
             class="grid grid-cols-1 place-items-left h-full pb-6 open-sans"
           >
-            <a class="content-link" on:mouseenter={activate("tide")}>TIDE</a>
-            <a class="content-link" on:mouseenter={activate("got2be")}>Göt2b</a>
-            <a class="content-link" on:mouseenter={activate("olay")}>OLAY</a>
-            <a class="content-link" on:mouseenter={activate("neom")}>NEOM</a>
-            <a class="content-link" on:mouseenter={activate("verizon")}
-              >VERIZON</a
-            >
-            <a class="content-link" on:mouseenter={activate("bellagio")}
-              >BELLAGIO</a
-            >
-            <!-- <a class="content-link">NEOM BILLBOARD</a> -->
-            <a class="content-link" on:mouseenter={activate("donateLife")}
-              >DONATE LIFE</a
-            >
-            <a class="content-link" on:mouseenter={activate("metaverse")}
-              >METAVERSE</a
-            >
+            {#each Object.entries(content) as [key, value]}
+              <div class="content-link" on:mouseenter={activate(key)}>
+                {key}
+              </div>
+            {/each}
           </div>
         </div>
       </div>

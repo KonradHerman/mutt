@@ -27,7 +27,7 @@
         <div class="col-span-2 grid grid-cols-1 place-items-center pb-20">
           <div class="w-20">
             <img
-              src="pics/1.svg"
+              src="pics/3.svg"
               alt="kiko"
               class="rounded-full"
             />
@@ -36,7 +36,7 @@
             <img
               src="pics/2.svg"
               alt="dave"
-              class="rounded-full border-2 border-black"
+              class="rounded-full"
             />
           </div>
         </div>

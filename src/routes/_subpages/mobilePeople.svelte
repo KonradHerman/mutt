@@ -1,4 +1,4 @@
-<div class="h-full w-full overflow-scroll" id="mobile-people">
+<div class="h-full w-full" id="mobile-people">
   <div class="sticky top-20 grid align-center background-white">
     <p
       class="pl-11 text-5xl lg:text-8xl text-center all-round-gothic-medium-oblique uppercase spacing"
@@ -6,13 +6,13 @@
       People
     </p>
   </div>
-  <div class="grid grid-cols-12 mt-20">
+  <div class="grid grid-cols-12 mt-20 w-full overflow-scroll">
     <!-- kiko -->
     <div class="col-span-4 grid grid-cols-1 place-items-center">
       <img src="pics/1.svg" alt="kiko" class="rounded-full h-20 w-20" />
     </div>
     <div class="content open-sans col-span-8 mx-4">
-      <div class="w-full text-4xl">
+      <div class="text-4xl w-fit">
         <p>Mutt</p>
         <p>Creative</p>
       </div>
@@ -37,7 +37,7 @@
       />
     </div>
     <div class="content open-sans col-span-8 mx-4">
-      <div class="text-4xl w-full">
+      <div class="text-4xl w-fit">
         <p>Mutt</p>
         <p>Production</p>
       </div>
