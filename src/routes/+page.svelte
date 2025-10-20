@@ -33,6 +33,7 @@
   let dogRect =0;
   let videoEl;
   let showStickyHeader = false;
+  let currentPageTitle = "";
   function isInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
@@ -64,6 +65,26 @@
 
         // Show sticky header when hero is scrolled past and before dog section
         showStickyHeader = heroRect.bottom <= 0 && dogRect.top > 0;
+
+        // Detect which section is currently in view
+        if (showStickyHeader) {
+          const sections = ['work', 'howl', 'people', 'awards', 'woof'];
+          let activePage = "";
+
+          for (const section of sections) {
+            const el = document.querySelector(`#${section}`);
+            if (el) {
+              const rect = el.getBoundingClientRect();
+              // Check if section is in viewport (top is at or above viewport top)
+              if (rect.top <= 100 && rect.bottom > 0) {
+                activePage = section.toUpperCase();
+                break;
+              }
+            }
+          }
+
+          currentPageTitle = activePage;
+        }
       }
     }
   onMount(() => {
@@ -116,7 +137,7 @@
 <div class="cont" on:scroll={handleScroll}>
   <!-- Sticky header for desktop on sections 2-6 -->
   {#if !mobile}
-    <StickyHeader visible={showStickyHeader} />
+    <StickyHeader visible={showStickyHeader} currentPage={currentPageTitle} />
   {/if}
 
   {#if mobile}
