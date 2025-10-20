@@ -6,30 +6,20 @@
 <div
 	class="two flex flex-col relative text-black w-full h-full"
 >
-	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
+	<div class="grid grid-rows-10 h-full w-full gap-0 mt-20 lg:mt-32">
 		<div
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
 			<div class=" col-span-4 flex w-full h-full">
 				<div
-					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
+					class=" page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl flex ml-6 lg:ml-40"
 				>
-					<img
-						src="logo-black.svg"
-						class="h-10 lg:h-24 pr-4"
-						alt=""
-					/>
-					MUTT
-					<p
-						class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
-					>
-						AWARDS
-					</p>
+					AWARDS
 				</div>
 			</div>
 		</div>
 		<div class="center">
-			<Sidebar color="black" />
+			<div class="w-full h-full" />
 			<div
 				class=" w-full h-full grid grid-cols-2 grid-flow-row place-items-center text-5xl p-6"
 			>
@@ -148,5 +138,8 @@
 	.title {
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full;
+	}
+	.page-title {
+		letter-spacing: 0.1em;
 	}
 </style>
