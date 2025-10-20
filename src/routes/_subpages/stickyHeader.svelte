@@ -4,22 +4,25 @@
 </script>
 
 <div
-  class="fixed top-0 left-0 w-full h-auto z-50 transition-opacity duration-300 pointer-events-none {visible
+  class="fixed top-0 left-0 h-screen z-40 transition-opacity duration-300 {visible
     ? 'opacity-100'
     : 'opacity-0'}"
 >
-  <div class="grid grid-cols-5 w-full gap-0 mt-3 pointer-events-auto">
-    <!-- Logo and MUTT title -->
-    <div class="col-span-4 flex w-full h-full">
-      <div
-        class="all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40 items-center"
-      >
-        <img src="logo-black.svg" class="h-10 lg:h-24 pr-4" alt="" />
-        <span class="tracking-wide">MUTT</span>
+  <div class="flex flex-col h-full pt-6 pl-6 lg:pl-12">
+    <!-- Logo -->
+    <div class="mb-4">
+      <img src="logo-black.svg" class="h-10 lg:h-16" alt="" />
+    </div>
+
+    <!-- MUTT title -->
+    <div class="mb-8 lg:mb-12">
+      <div class="all-round-gothic-xlig text-4xl lg:text-6xl tracking-wide">
+        MUTT
       </div>
     </div>
+
     <!-- Sidebar navigation -->
-    <div class="col-span-1 flex items-start justify-end pt-2">
+    <div>
       <Sidebar color="black" />
     </div>
   </div>
