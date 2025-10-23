@@ -3,11 +3,11 @@
   import { fade } from "svelte/transition";
 </script>
 
-<div class="two flex flex-col relative text-black w-full h-full">
+<div class="two flex flex-col relative text-black w-full h-full pl-80 lg:pl-96">
   <div class="grid grid-rows-10 h-full w-full gap-0">
-    <div class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0 pt-3 lg:pt-6">
+    <div class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0">
       <div class="col-span-4 flex w-full h-full items-center">
-        <div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-6 lg:ml-12">
+        <div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-12 lg:ml-16">
           PEOPLE
         </div>
       </div>

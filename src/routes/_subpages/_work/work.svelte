@@ -20,10 +20,10 @@
   };
 </script>
 
-<div class="two flex flex-col relative text-black w-full h-full">
+<div class="two relative text-black w-full h-full pl-80 lg:pl-96">
   {#if maximized}
     <div
-      class="align-top w-full h-full absolute z-40 grid grid-cols-5 place-items-center"
+      class="align-top w-full h-full absolute z-40 grid grid-cols-5 place-items-center top-0 left-0"
       transition:fade={{ duration: 700 }}
     >
       <div />
@@ -68,9 +68,9 @@
     </div>
   {/if}
   <div class="grid grid-rows-10 h-full w-full gap-0">
-    <div class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0 pt-3 lg:pt-6">
+    <div class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0">
       <div class="col-span-4 flex w-full h-full items-center">
-        <div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-6 lg:ml-12">
+        <div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-12 lg:ml-16">
           WORK
         </div>
       </div>
@@ -146,7 +146,6 @@
     </div>
     <div class="row-span-3 grid grid-cols-5 place-items-center w-full mb-20">
       <div class=" w-full h-full" />
-      <div class=" w-full h-full" />
       <div
         class="  w-full h-full border-r-4 border-black {maximized
           ? 'border-white'
@@ -154,6 +153,7 @@
       >
         <div class="arrow {!maximized ? 'arrowVisible' : ''}" />
       </div>
+      <div class="  w-full h-full" />
       <div class="  w-full h-full" />
       <div class="  w-full h-full" />
     </div>
