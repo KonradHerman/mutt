@@ -4,32 +4,19 @@
 </script>
 
 <div
-	class="two flex flex-col relative text-black w-full h-full"
+	class="two flex flex-col relative text-black w-full h-full pl-80 lg:pl-96"
 >
-	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
+	<div class="grid grid-rows-10 h-full w-full gap-0">
 		<div
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
-			<div class=" col-span-4 flex w-full h-full">
-				<div
-					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
-				>
-					<img
-						src="logo-black.svg"
-						class="h-10 lg:h-24 pr-4"
-						alt=""
-					/>
-					MUTT
-					<p
-						class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
-					>
-						HOWL
-					</p>
+			<div class="col-span-4 flex w-full h-full items-center">
+				<div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-12 lg:ml-16">
+					HOWL
 				</div>
 			</div>
 		</div>
 		<div class="center">
-			<Sidebar color="black" />
 			<div
 				class=" w-full h-full grid grid-cols-1 place-items-center sm:text-xl md:text-3xl lg:text-4xl xl:text-5xl text-right open-sans weight"
 			>
@@ -40,49 +27,42 @@
 				<div>world is</div>
 				<div>"skip ad"</div>
 			</div>
-			<div
-				class=" w-full h-full border-b-4 border-l-4 border-black"
-			/>
-			<div
-				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
-			>
-				<div class="content">
-					<div
-						class="grid grid-cols-1 place-content-evenly h-full pb-0 pl-6 open-sans"
+			<div class="content w-full col-span-2 h-full border-b-4 border-l-4 border-black">
+				<div
+					class="grid grid-cols-1 place-content-evenly h-full pb-0 pl-6 open-sans"
+				>
+					<p>
+						Most of the time they deserve to be skipped.
+					</p>
+					<p>
+						Because they’re bad, boring, they’re
+						just…average.
+					</p>
+					<p>
+						Average is a joy killer. Average is a waste of
+						everyone’s time.
+					</p>
+					<p>
+						We’re here with a purpose. To give ideas that
+						matter, the ones that people love and engage,
+						a bigger chance to exist. That’s why we’re not
+						only an ad agency, we’re a production house
+						too.
+					</p>
+					We’re small, faster and more efficient.<br />
+					We’re project driven. And we hire accordingly.
+					<br />
+					We’re here to unleash the kind of work people cannot
+					ignore. <br /> We’re here for the joy of doing
+					what we love. <br /> We’re here for shorter
+					calls and longer relationships. <br /> We want
+					everyone involved to be happy. <br /><br />
+					<p
+						class="howling font-extrabold open-sans"
+						id="howling"
 					>
-						<p>
-							Most of the time they deserve to be skipped.
-						</p>
-						<p>
-							Because they’re bad, boring, they’re
-							just…average.
-						</p>
-						<p>
-							Average is a joy killer. Average is a waste of
-							everyone’s time.
-						</p>
-						<p>
-							We’re here with a purpose. To give ideas that
-							matter, the ones that people love and engage,
-							a bigger chance to exist. That’s why we’re not
-							only an ad agency, we’re a production house
-							too.
-						</p>
-						We’re small, faster and more efficient.<br />
-						We’re project driven. And we hire accordingly.
-						<br />
-						We’re here to unleash the kind of work people cannot
-						ignore. <br /> We’re here for the joy of doing
-						what we love. <br /> We’re here for shorter
-						calls and longer relationships. <br /> We want
-						everyone involved to be happy. <br /><br />
-						<p
-							class="howling font-extrabold open-sans"
-							id="howling"
-						>
-							And occasionally howling.
-						</p>
-					</div>
+						And occasionally howling.
+					</p>
 				</div>
 			</div>
 			<div class=" w-full h-full" />
@@ -130,6 +110,12 @@
 	.title {
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full;
+	}
+	.page-title {
+		letter-spacing: 0.1em;
+	}
+	.tracking-wide {
+		letter-spacing: 0.1em;
 	}
 	.weight {
 		font-weight: 100;

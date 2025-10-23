@@ -15,6 +15,7 @@
   import MobileWoof from "./_subpages/mobileWoof.svelte";
   import { onMount } from "svelte";
   import Logo from "./_subpages/logo.svelte";
+  import Menu from "./_subpages/menu.svelte";
   // if screen is mobile sized set mobile to true
   let mobile = true;
   // if (window.innerWidth < 768) {
@@ -31,6 +32,7 @@
   let dogY = 0;
   let dogRect =0;
   let videoEl;
+  let showMenu = false;
   function isInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
@@ -50,6 +52,18 @@
       } else {
           logoColor = "white";
           visibility = "invisible";
+      }
+
+      // Check if we're in sections 2-6 (work, howl, people, awards, woof)
+      const heroSection = document.querySelector('#hero');
+      const dogSection = document.querySelector('#dog');
+
+      if (heroSection && dogSection) {
+        const heroRect = heroSection.getBoundingClientRect();
+        const dogRect = dogSection.getBoundingClientRect();
+
+        // Show menu when hero is scrolled past and before dog section
+        showMenu = heroRect.bottom <= 0 && dogRect.top > 0;
       }
     }
   onMount(() => {
@@ -100,6 +114,11 @@
 </svelte:head>
 
 <div class="cont" on:scroll={handleScroll}>
+  <!-- Menu panel for desktop on sections 2-6 -->
+  {#if !mobile}
+    <Menu visible={showMenu} />
+  {/if}
+
   {#if mobile}
     <div
       class="z-40 fixed w-full h-20 align-top grid grid-cols-1 place-items-center pt-4 {logoColor}"
@@ -305,7 +324,8 @@
     
   {/if}
   <SnapSection id="hero">
-    <video autoplay muted loop playsinline id="myVideo" class="absolute z-0">
+    <div class="absolute inset-0 bg-black z-0"></div>
+    <video autoplay muted loop playsinline id="myVideo" class="absolute z-10">
       <source src={mobile?"mobileVideo.mp4":"video.mp4"} type="video/mp4" />
     </video>
     {#if mobile}

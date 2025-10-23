@@ -4,38 +4,22 @@
 </script>
 
 <div
-	class="two flex flex-col relative text-black w-full h-full"
+	class="two flex flex-col relative text-black w-full h-full pl-80 lg:pl-96"
 >
-	<div class="grid grid-rows-10 h-full w-full gap-0 mt-3">
+	<div class="grid grid-rows-10 h-full w-full gap-0">
 		<div
 			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
 		>
-			<div class=" col-span-4 flex w-full h-full">
-				<div
-					class=" title all-round-gothic-xlig text-5xl lg:text-8xl flex ml-6 lg:ml-40"
-				>
-					<img
-						src="logo-black.svg"
-						class="h-10 lg:h-24 pr-4"
-						alt=""
-					/>
-					MUTT
-					<p
-						class="text-5xl lg:text-8xl all-round-gothic-medium-oblique spacing"
-					>
-						WOOF
-					</p>
+			<div class="col-span-4 flex w-full h-full items-center">
+				<div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-12 lg:ml-16">
+					WOOF
 				</div>
 			</div>
 		</div>
 		<div class="center">
-			<Sidebar color="black" />
 			<div class=" " />
 			<div
-				class=" w-full h-full border-b-4 border-l-4 border-black"
-			/>
-			<div
-				class="z-10 t-0 l-0 h-full absolute overlay flex flex-col"
+				class="z-10 t-0 l-0 w-full h-full border-b-4 border-l-4 border-black col-span-2 flex flex-col"
 			>
 				<div
 					class="content grid grid-cols-1 place-items-center"
@@ -70,7 +54,7 @@
 			<div class=" w-full h-full" />
 		</div>
 		<div
-			class="row-sdivan-3 grid grid-cols-5 divlace-items-center w-full mb-20"
+			class="row-span-3 grid grid-cols-5 place-items-center w-full mb-20"
 		>
 			<div class=" w-full h-full" />
 			<div class=" w-full h-full" />
@@ -91,6 +75,7 @@
 	}
 	.content {
 		letter-spacing: 0.1em;
+		text-wrap: nowrap;
 		@apply text-justify text-xl w-full h-full flex flex-col justify-end font-bold pr-20;
 	}
 	.overlay {
@@ -111,6 +96,12 @@
 	.title {
 		letter-spacing: 0.1em;
 		@apply row-span-5  w-full h-full;
+	}
+	.page-title {
+		letter-spacing: 0.1em;
+	}
+	.tracking-wide {
+		letter-spacing: 0.1em;
 	}
 	.spacing {
 		letter-spacing: 0.2em;
