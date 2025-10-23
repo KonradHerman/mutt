@@ -17,7 +17,6 @@
 			</div>
 		</div>
 		<div class="center">
-			<div class="w-full h-full" />
 			<div
 				class=" w-full h-full grid grid-cols-2 grid-flow-row place-items-center text-5xl p-6"
 			>
@@ -63,10 +62,7 @@
 				</div>
 			</div>
 			<div
-				class=" w-full h-full border-b-4 border-l-4 border-black"
-			/>
-			<div
-				class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
+				class="w-full col-span-2 h-full border-b-4 border-l-4 border-black z-10 t-0 l-0 grid grid-cols-1 place-items-center"
 			>
 				<div class="content">
 					<div

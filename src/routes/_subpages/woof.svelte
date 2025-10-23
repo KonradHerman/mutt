@@ -17,13 +17,9 @@
 			</div>
 		</div>
 		<div class="center">
-			<div class="w-full h-full" />
 			<div class=" " />
 			<div
-				class=" w-full h-full border-b-4 border-l-4 border-black"
-			/>
-			<div
-				class="z-10 t-0 l-0 h-full absolute overlay flex flex-col"
+				class="z-10 t-0 l-0 w-full h-full border-b-4 border-l-4 border-black col-span-2 flex flex-col"
 			>
 				<div
 					class="content grid grid-cols-1 place-items-center"
@@ -79,6 +75,7 @@
 	}
 	.content {
 		letter-spacing: 0.1em;
+		text-wrap: nowrap;
 		@apply text-justify text-xl w-full h-full flex flex-col justify-end font-bold pr-20;
 	}
 	.overlay {

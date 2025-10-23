@@ -13,9 +13,7 @@
       </div>
     </div>
     <div class="center">
-      <div class="col-span-1 -z-10" />
       <div class="absolute text-9xl w-full h-full grid grid-cols-5">
-        <div class="w-full h-full" />
         <div class="col-span-2 grid grid-cols-1 place-items-center pb-20">
           <div class="w-20">
             <img
@@ -49,9 +47,8 @@
           </div>
         </div>
       </div>
-      <div class=" w-full h-full border-b-4 border-l-4 border-black" />
       <div
-        class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
+        class="t-0 l-0 h-fullw-full h-full border-b-4 border-l-4 border-black col-span-2 grid grid-cols-1 place-items-center"
       >
         <div class="content open-sans">
           <div class=" w-full h-full grid grid-rows-2 pr-4">

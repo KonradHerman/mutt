@@ -4,7 +4,7 @@
 </script>
 
 <div
-  class="fixed top-0 left-0 h-screen w-80 lg:w-96 transition-opacity duration-300 {visible
+  class="fixed top-0 left-0 h-screen w-80 lg:w-96 z-50 transition-opacity duration-300 {visible
     ? 'opacity-100 pointer-events-auto'
     : 'opacity-0 pointer-events-none'}"
 >

@@ -77,7 +77,6 @@
     </div>
 
     <div class="center {maximized ? 'text-white' : ''}">
-      <div class="w-full h-full" />
 
       <div class=" w-full h-full content flex flex-col items-center">
         {#if activeContent}
@@ -122,12 +121,9 @@
         {/if}
       </div>
       <div
-        class=" w-full h-full border-b-4 border-l-4 border-black {maximized
+        class="z-10 t-0 l-0 w-full h-full border-b-4 border-l-4 border-black col-span-2 grid grid-cols-1 place-items-center{maximized
           ? 'border-white'
           : ''}"
-      />
-      <div
-        class="z-10 t-0 l-0 h-full absolute overlay grid grid-cols-1 place-items-center"
       >
         <div class="motto">
           <div
@@ -146,6 +142,7 @@
     </div>
     <div class="row-span-3 grid grid-cols-5 place-items-center w-full mb-20">
       <div class=" w-full h-full" />
+      <div class=" w-full h-full" />
       <div
         class="  w-full h-full border-r-4 border-black {maximized
           ? 'border-white'
@@ -153,7 +150,6 @@
       >
         <div class="arrow {!maximized ? 'arrowVisible' : ''}" />
       </div>
-      <div class="  w-full h-full" />
       <div class="  w-full h-full" />
       <div class="  w-full h-full" />
     </div>
