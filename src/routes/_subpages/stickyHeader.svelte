@@ -4,21 +4,21 @@
 </script>
 
 <div
-  class="fixed top-0 left-0 h-screen z-40 transition-opacity duration-300 {visible
+  class="fixed top-0 left-0 h-screen z-40 transition-opacity duration-300 border-r-4 border-black {visible
     ? 'opacity-100'
     : 'opacity-0'}"
 >
   <div class="flex flex-col h-full pt-3 lg:pt-6">
-    <!-- Logo and MUTT inline - aligned with page titles -->
-    <div class="flex items-center mb-8 lg:mb-12 ml-6 lg:ml-40">
-      <img src="logo-black.svg" class="h-10 lg:h-16 pr-3 lg:pr-4" alt="" />
-      <div class="all-round-gothic-xlig text-4xl lg:text-6xl tracking-wide" id="mutt-text">
+    <!-- Logo and MUTT inline - same size as page titles -->
+    <div class="flex items-center mb-8 lg:mb-12 ml-6 lg:ml-12">
+      <img src="logo-black.svg" class="h-10 lg:h-24 pr-3 lg:pr-4" alt="" />
+      <div class="all-round-gothic-xlig text-5xl lg:text-8xl tracking-wide">
         MUTT
       </div>
     </div>
 
     <!-- Sidebar navigation - aligned with MUTT text -->
-    <div class="sidebar-wrapper ml-6 lg:ml-40">
+    <div class="sidebar-wrapper ml-6 lg:ml-12">
       <Sidebar color="black" />
     </div>
   </div>

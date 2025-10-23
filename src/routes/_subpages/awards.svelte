@@ -6,13 +6,13 @@
 <div
 	class="two flex flex-col relative text-black w-full h-full"
 >
-	<div class="grid grid-rows-10 h-full w-full gap-0 mt-20 lg:mt-32">
+	<div class="grid grid-rows-10 h-full w-full gap-0">
 		<div
-			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0"
+			class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0 pt-3 lg:pt-6"
 		>
-			<div class=" col-span-4 flex w-full h-full items-center ml-6 lg:ml-40">
-				<img src="logo-black.svg" class="h-10 lg:h-16 pr-3 lg:pr-4 invisible" alt="" />
-				<div class="all-round-gothic-xlig text-4xl lg:text-6xl tracking-wide invisible">
+			<div class=" col-span-4 flex w-full h-full items-center ml-6 lg:ml-12">
+				<img src="logo-black.svg" class="h-10 lg:h-24 pr-3 lg:pr-4 invisible" alt="" />
+				<div class="all-round-gothic-xlig text-5xl lg:text-8xl tracking-wide invisible">
 					MUTT
 				</div>
 				<div class=" page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl">
