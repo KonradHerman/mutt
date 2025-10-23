@@ -69,12 +69,8 @@
   {/if}
   <div class="grid grid-rows-10 h-full w-full gap-0">
     <div class="row-span-1 grid grid-cols-5 place-items-center p-0 m-0 pt-3 lg:pt-6">
-      <div class=" col-span-4 flex w-full h-full items-center ml-6 lg:ml-12">
-        <img src="logo-black.svg" class="h-10 lg:h-24 pr-3 lg:pr-4 invisible" alt="" />
-        <div class="all-round-gothic-xlig text-5xl lg:text-8xl tracking-wide invisible">
-          MUTT
-        </div>
-        <div class=" page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl">
+      <div class="col-span-4 flex w-full h-full items-center">
+        <div class="page-title all-round-gothic-medium-oblique text-5xl lg:text-8xl ml-6 lg:ml-12">
           WORK
         </div>
       </div>

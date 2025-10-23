@@ -15,7 +15,7 @@
   import MobileWoof from "./_subpages/mobileWoof.svelte";
   import { onMount } from "svelte";
   import Logo from "./_subpages/logo.svelte";
-  import StickyHeader from "./_subpages/stickyHeader.svelte";
+  import Menu from "./_subpages/menu.svelte";
   // if screen is mobile sized set mobile to true
   let mobile = true;
   // if (window.innerWidth < 768) {
@@ -32,7 +32,7 @@
   let dogY = 0;
   let dogRect =0;
   let videoEl;
-  let showStickyHeader = false;
+  let showMenu = false;
   function isInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
@@ -62,8 +62,8 @@
         const heroRect = heroSection.getBoundingClientRect();
         const dogRect = dogSection.getBoundingClientRect();
 
-        // Show sticky header when hero is scrolled past and before dog section
-        showStickyHeader = heroRect.bottom <= 0 && dogRect.top > 0;
+        // Show menu when hero is scrolled past and before dog section
+        showMenu = heroRect.bottom <= 0 && dogRect.top > 0;
       }
     }
   onMount(() => {
@@ -114,9 +114,9 @@
 </svelte:head>
 
 <div class="cont" on:scroll={handleScroll}>
-  <!-- Sticky header for desktop on sections 2-6 -->
+  <!-- Menu panel for desktop on sections 2-6 -->
   {#if !mobile}
-    <StickyHeader visible={showStickyHeader} />
+    <Menu visible={showMenu} />
   {/if}
 
   {#if mobile}
